@@ -1,0 +1,4 @@
+name: n2-buiten-leven
+recipe: lamp
+config:
+  webroot: web

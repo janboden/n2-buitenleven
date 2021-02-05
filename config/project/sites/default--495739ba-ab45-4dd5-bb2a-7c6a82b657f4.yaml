@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: nl-BE
+name: 'N2 Buiten Leven'
+primary: true
+siteGroup: d639e15e-3837-4538-96ee-922b22f96798
+sortOrder: 1

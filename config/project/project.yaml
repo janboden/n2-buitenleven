@@ -1,0 +1,17 @@
+dateModified: 1612529367
+email:
+  fromEmail: jan@inteiro.be
+  fromName: 'N2 Buiten Leven'
+  transportType: craft\mail\transportadapters\Sendmail
+system:
+  edition: solo
+  live: true
+  name: 'N2 Buiten Leven'
+  schemaVersion: 3.6.1
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
