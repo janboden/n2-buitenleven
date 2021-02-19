@@ -49,9 +49,84 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+          -
+            fieldUid: bbd5ba34-7a22-478b-b5ad-ee41644e6970
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 39859fa6-1365-422e-a85f-6dc12cc05548
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1bbab94c-f7e3-4b59-ac73-00eb765dcd39
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
+  1bbab94c-f7e3-4b59-ac73-00eb765dcd39:
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: youtube
+    instructions: ''
+    name: 'Youtube Link'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  39859fa6-1365-422e-a85f-6dc12cc05548:
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageSecondary
+    instructions: ''
+    name: 'Afbeelding 2'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:57f475e0-d66e-4374-826f-d20f4c2e0392'
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:57f475e0-d66e-4374-826f-d20f4c2e0392'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:57f475e0-d66e-4374-826f-d20f4c2e0392'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
   6bb59240-5314-420b-9313-22f3bb99258b:
     contentColumnType: string
     fieldGroup: null
@@ -64,7 +139,7 @@ fields:
       limit: '1'
       localizeRelations: false
       selectionLabel: ''
-      showSiteMenu: false
+      showSiteMenu: true
       source: null
       sources: '*'
       targetSiteId: null
@@ -111,6 +186,39 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+  bbd5ba34-7a22-478b-b5ad-ee41644e6970:
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageMain
+    instructions: ''
+    name: 'Afbeelding 1'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:57f475e0-d66e-4374-826f-d20f4c2e0392'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:57f475e0-d66e-4374-826f-d20f4c2e0392'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:57f475e0-d66e-4374-826f-d20f4c2e0392'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
   d9e3dc57-f8a5-427c-8e75-7a95f82a19d9:
     contentColumnType: text
     fieldGroup: null
