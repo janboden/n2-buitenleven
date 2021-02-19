@@ -1415,7 +1415,6 @@ h6 {
    Buttons
 ---------------------*/
 .btn {
-  text-transform: capitalize;
   position: relative;
   z-index: 1;
   font-size: 14px;
@@ -1871,7 +1870,6 @@ textarea.form-control {
   position: relative;
   padding: 0 0 6px;
   margin: 0 30px 20px 0;
-  text-transform: capitalize;
   font-size: 14px;
   font-weight: 700;
   line-height: 1;
@@ -2370,7 +2368,7 @@ textarea.form-control {
 .navbar .nav__item .nav__item-link {
   font-size: 15px;
   font-weight: 700;
-  text-transform: capitalize;
+  
   display: block;
   position: relative;
   color: #2E2816;
@@ -2440,7 +2438,7 @@ textarea.form-control {
 .navbar .dropdown-menu .nav__item .nav__item-link {
   color: #9b9b9b;
   font-size: 14px;
-  text-transform: capitalize;
+  
   font-weight: 400;
   line-height: 33px !important;
   white-space: nowrap;
@@ -3352,7 +3350,7 @@ textarea.form-control {
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
-  text-transform: capitalize;
+  
   margin-bottom: 30px;
 }
 
@@ -5641,7 +5639,7 @@ textarea.form-control {
 }
 
 .comments-list .comment-item .comment-item__content .comment-item__reply {
-  text-transform: capitalize;
+  
   font-size: 14px;
   font-weight: 700;
   line-height: 1;
@@ -6093,7 +6091,7 @@ textarea.form-control {
   font-size: 15px;
   font-weight: 700;
   margin-bottom: 19px;
-  text-transform: capitalize;
+  
 }
 
 .pricing-panel .pricing-panel__list li:after {
@@ -6347,7 +6345,7 @@ textarea.form-control {
   color: #2E2816;
   font-size: 15px;
   font-weight: 700;
-  text-transform: capitalize;
+  
   margin-bottom: 2px;
   border-radius: 3px;
   background-color: #ffffff;
@@ -6401,7 +6399,7 @@ textarea.form-control {
   background-color: #c9d30e;
   color: #ffffff;
   line-height: 1;
-  text-transform: capitalize;
+  
   padding: 8px 10px;
   margin: 0 10px 10px 0;
   border-radius: 3px;
@@ -6975,7 +6973,6 @@ textarea.form-control {
   font-size: 13px;
   padding: 3px 10px;
   border-radius: 3px;
-  text-transform: capitalize;
   color: #ffffff;
   background-color: #c9d30e;
 }

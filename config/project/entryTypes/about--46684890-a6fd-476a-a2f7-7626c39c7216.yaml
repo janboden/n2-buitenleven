@@ -30,7 +30,7 @@ fieldLayouts:
         sortOrder: 1
 handle: about
 hasTitleField: false
-name: About
+name: 'Over N²'
 section: a6c40a0a-0671-45a6-820f-98a1b995e8e7
 sortOrder: 1
 titleFormat: '{section.name|raw}'

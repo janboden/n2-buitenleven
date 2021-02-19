@@ -1,6 +1,6 @@
 enableVersioning: true
 handle: about
-name: About
+name: 'Over N²'
 propagationMethod: all
 siteSettings:
   495739ba-ab45-4dd5-bb2a-7c6a82b657f4:
