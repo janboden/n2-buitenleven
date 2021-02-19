@@ -1,0 +1,10 @@
+{% set featureLink = feature.btn.one() %}
+<div class="feature-item{% if loop.last %} bg-theme{% endif %}">
+    <div class="feature-item__content">
+        <h4 class="feature-item__title{% if loop.last %}align-items-end mb-25{% endif %}"><a href="{{ featureLink.url }}" class="{% if loop.last %}color-white{% else %}color-dark{% endif %}"><span>{{ feature.heading }}</span></a></h4>
+        <p class="feature-item__desc{% if loop.last %} color-white mb-0{% endif %}"><a href="{{ featureLink.url }}" class="{% if loop.last %}color-white{% else %}color-body{% endif %}">{{ feature.description }}</a></p>
+        {% if featureLink and not loop.last %}
+        <a href="{{ featureLink.url }}" class="btn btn__link btn__secondary"><i class="icon-arrow-right"></i></a>
+        {% endif %}
+    </div><!-- /.feature-content -->
+</div><!-- /.col-lg-3 -->

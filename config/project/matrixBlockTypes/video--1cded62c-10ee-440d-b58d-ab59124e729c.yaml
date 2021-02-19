@@ -1,0 +1,154 @@
+field: 031f9d3a-0ebd-4464-90c8-181518a0a676
+fieldLayouts:
+  e1434bf7-5bd8-48dd-85e9-fb509c55ce62:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: d9e3dc57-f8a5-427c-8e75-7a95f82a19d9
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b42a32aa-b28d-449b-8b86-c6faf7be3c8e
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: dee29ced-14aa-48b7-8add-5b871c620f2d
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a72ae909-9c61-4feb-be30-078b6b81e687
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6bb59240-5314-420b-9313-22f3bb99258b
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  6bb59240-5314-420b-9313-22f3bb99258b:
+    contentColumnType: string
+    fieldGroup: null
+    handle: btn
+    instructions: ''
+    name: Button
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  a72ae909-9c61-4feb-be30-078b6b81e687:
+    contentColumnType: text
+    fieldGroup: null
+    handle: usp
+    instructions: ''
+    name: USP
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b42a32aa-b28d-449b-8b86-c6faf7be3c8e:
+    contentColumnType: text
+    fieldGroup: null
+    handle: subtitle
+    instructions: ''
+    name: subTitle
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d9e3dc57-f8a5-427c-8e75-7a95f82a19d9:
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  dee29ced-14aa-48b7-8add-5b871c620f2d:
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: ''
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: video
+name: Video
+sortOrder: 1

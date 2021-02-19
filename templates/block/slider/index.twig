@@ -1,7 +1,7 @@
 <section class="slider slider-layout1">
     <div class="slick-carousel carousel-arrows-light m-slides-0" data-slick='{"slidesToShow": 1, "arrows": true, "dots": true, "speed": 700,"fade": true,"cssEase": "linear"}'>
         {% for slide in entry.slider.all() %}
-            {% include 'elements/slider/slide' %}
+            {% include 'block/slider/slide' %}
         {%  endfor %}
     </div><!-- /.carousel -->
 </section><!-- /.slider -->

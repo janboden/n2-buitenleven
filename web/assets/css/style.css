@@ -995,7 +995,7 @@ select {
 }
 
 .color-theme {
-  color: #c9d30e !important;
+  color: # !important;
 }
 
 .color-heading {
@@ -1081,7 +1081,6 @@ h5,
 h6 {
   color: #2E2816;
   font-family: "Rubik", sans-serif;
-  text-transform: capitalize;
   line-height: 1.5;
   margin-bottom: 20px;
 }

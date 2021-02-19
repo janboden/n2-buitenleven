@@ -92,7 +92,7 @@ fields:
       limit: '1'
       localizeRelations: false
       selectionLabel: ''
-      showSiteMenu: false
+      showSiteMenu: true
       source: null
       sources: '*'
       targetSiteId: null
@@ -151,7 +151,7 @@ fields:
       limit: '1'
       localizeRelations: false
       selectionLabel: ''
-      showSiteMenu: false
+      showSiteMenu: true
       source: null
       sources: '*'
       targetSiteId: null
@@ -178,7 +178,7 @@ fields:
       previewMode: full
       restrictFiles: ''
       selectionLabel: ''
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       singleUploadLocationSource: 'volume:57f475e0-d66e-4374-826f-d20f4c2e0392'

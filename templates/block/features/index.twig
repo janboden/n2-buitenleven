@@ -1,0 +1,11 @@
+<section class="features-latout1 py-0">
+    <div class="container">
+        <div class="row mx-0">
+            <div class="col-sm-12 col-md-12 col-lg-12 px-0 features-wrapper d-flex flex-wrap">
+                {% for feature in entry.features.all() %}
+                    {% include 'block/features/feature' %}
+                {%  endfor %}
+            </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.features -->
