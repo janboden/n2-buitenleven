@@ -1,0 +1,15 @@
+<section class="clients bg-gray">
+    <div class="container">
+        <div class="row align-items-center">
+            {% for brand in craft.entries.section('brands') %}
+                {% set logo = brand.logo.one() %}
+            <div class="col-6 col-sm-4 col-md-2 col-lg-2">
+                <div class="client">
+                    <img src="{{ logo.url }}" alt="{{ brand.title }}">
+                    <img src="{{ logo.url }}" alt="{{ brand.title }}">
+                </div><!-- /.client -->
+            </div><!-- /.col-lg-2 -->
+            {% endfor %}
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.clients -->
