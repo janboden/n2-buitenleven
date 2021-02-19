@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: about
+name: About
+propagationMethod: all
+siteSettings:
+  495739ba-ab45-4dd5-bb2a-7c6a82b657f4:
+    enabledByDefault: true
+    hasUrls: true
+    template: about/_entry
+    uriFormat: over-n2-buiten-leven
+type: single

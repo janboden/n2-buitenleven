@@ -1,0 +1,32 @@
+{% set large = {
+    mode: 'fit',
+    width: '100%',
+    height: '100%',
+    quality: 90,
+    position: 'top-center'
+} %}
+{% set slideImage = slide.image.one() %}
+<div class="slide-item align-v-h bg-overlay">
+    <div class="bg-img"><img src="{{ slideImage.url }}" alt="slide img" titlle="{{ slideImage.title }}"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-9">
+                <div class="slide-item__content">
+                    {% if slide.subtitle %}<h3 class="slide-item__subtitle">{{ slide.subtitle }}</h3>{% endif %}
+                    {% if slide.header %}<h2 class="slide-item__title">{{ slide.header }}</h2>{% endif %}
+                    {% if slide.description %}<p class="slide-item__desc">{{ slide.description }}</p>{% endif %}
+                    {% set btnMainEntry = slide.btnMain.one() %}
+                    {% if btnMainEntry %}
+                        <a href="{{ btnMainEntry.url }}" class="btn btn__primary btn__lg mr-30">
+                            <i class="icon-arrow-right"></i><span>{{btnMainEntry.title}}</span>
+                        </a>
+                    {% endif %}
+                    {% set btnSecondayEntry = slide.btnSecondary.one() %}
+                    {% if btnSecondayEntry %}
+                        <a href="{{ btnSecondayEntry.url }}" class="btn btn__white">{{ btnSecondayEntry.title }}</a>
+                    {% endif %}
+                </div><!-- /.slide-content -->
+            </div><!-- /.col-xl-9 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div><!-- /.slide-item -->

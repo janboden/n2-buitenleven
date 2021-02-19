@@ -1,0 +1,38 @@
+fieldLayouts:
+  ff0f65db-9f86-4a56-945a-e72af45ad0c3:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4a5b3826-153b-4c6c-96c0-cb0dfe79d498
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e6d77ea5-b495-4733-ad38-5125c8c63ac2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 52f09528-f815-4816-a11c-5eef8a77de1f
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            type: craft\fieldlayoutelements\HorizontalRule
+        name: info
+        sortOrder: 1
+handle: contactinfo
+name: Contactinfo
