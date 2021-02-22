@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 34cc9753-4511-402d-b671-ffae66a7f428
+handle: col2Header
+instructions: ''
+name: 'Kolom 2: Titel'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

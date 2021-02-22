@@ -1,5 +1,6 @@
 {
   "require": {
+    "adigital/cookie-consent-banner": "1.2.7",
     "craftcms/cms": "^3.5.10",
     "ether/seo": "3.6.7",
     "nystudio107/craft-minify": "1.2.10",

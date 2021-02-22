@@ -1,0 +1,28 @@
+handle: footerCol3
+instructions: ''
+maxNodes: ''
+name: 'Footer  3e kolom'
+permissions:
+  craft\elements\Asset:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Category:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Entry:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Tag:
+    enabled: ''
+    permissions: '*'
+  custom:
+    enabled: '1'
+  verbb\navigation\nodetypes\PassiveType:
+    enabled: '1'
+propagateNodes: false
+siteSettings:
+  495739ba-ab45-4dd5-bb2a-7c6a82b657f4: null
+sortOrder: 4
+structure:
+  maxLevels: null
+  uid: e802545d-c5d9-49bd-ad62-3103fc6b1f30

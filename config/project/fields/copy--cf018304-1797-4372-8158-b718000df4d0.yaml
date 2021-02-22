@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: f57375eb-70ec-48b9-be73-fd19ecf64112
+handle: copy
+instructions: ''
+name: Beschrijving
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

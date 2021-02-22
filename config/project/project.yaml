@@ -1,9 +1,13 @@
-dateModified: 1613750008
+dateModified: 1614002372
 email:
   fromEmail: jan@inteiro.be
   fromName: 'N2 Buiten Leven'
   transportType: craft\mail\transportadapters\Sendmail
 plugins:
+  cookie-consent-banner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
   minify:
     edition: standard
     enabled: true
