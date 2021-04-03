@@ -1,5 +1,5 @@
 fieldLayouts:
-  17e3110a-12cb-4f8e-8e3a-5a935a3b2d5c:
+  035fc358-e9ba-4e0e-98f4-6ea2b9acc0c0:
     tabs:
       -
         elements:
@@ -53,12 +53,8 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: Content
-        sortOrder: 1
-      -
-        elements:
           -
-            fieldUid: 268783a2-59cb-4313-ae5f-b933ffd7d4a8
+            fieldUid: 69c8fef7-9f3c-4904-a863-7f1faae79456
             instructions: null
             label: null
             required: false
@@ -66,13 +62,13 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: SEO
-        sortOrder: 2
-handle: buitenLeven
-hasTitleField: true
-name: 'Buiten leven'
-section: 040bf137-dd04-4207-9292-a2ec3a10b199
+        name: Content
+        sortOrder: 1
+handle: houtconstructies
+hasTitleField: false
+name: Houtconstructies
+section: 5a5cd8c6-0552-4214-a91c-a9baad132f82
 sortOrder: 1
-titleFormat: null
+titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

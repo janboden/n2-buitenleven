@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 5e4913d6-ed0e-48fc-a49b-593cc43d370a
+handle: about2
+instructions: ''
+name: About2
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_about2}}'
+  maxBlocks: '1'
+  minBlocks: '1'
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

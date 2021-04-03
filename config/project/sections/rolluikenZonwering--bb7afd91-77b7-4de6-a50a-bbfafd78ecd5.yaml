@@ -1,11 +1,11 @@
 enableVersioning: true
-handle: zonwering
-name: Zonwering
+handle: rolluikenZonwering
+name: 'Rolluiken en zonwering'
 propagationMethod: all
 siteSettings:
   495739ba-ab45-4dd5-bb2a-7c6a82b657f4:
     enabledByDefault: true
     hasUrls: true
     template: category
-    uriFormat: zonwering
+    uriFormat: rolluiken-zonwering
 type: single

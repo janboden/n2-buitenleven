@@ -1,6 +1,6 @@
 handle: mainNavigation
 instructions: ''
-maxNodes: '6'
+maxNodes: '8'
 name: 'Hoofd navigatie'
 permissions:
   craft\elements\Asset:

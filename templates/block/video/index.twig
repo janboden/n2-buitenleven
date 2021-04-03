@@ -1,7 +1,8 @@
-{% set video = entry.video.one() %}
-{% set imageMain = video.imageMain.one() %}
-{% set imageSecondary = video.imageSecondary.one() %}
-{% set btnEntry = video.btn.one() %}
+{% if entry.video %}
+    {% set video = entry.video.one() %}
+    {% set imageMain = video.imageMain.one() %}
+    {% set imageSecondary = video.imageSecondary.one() %}
+    {% set btnEntry = video.btn.one() %}
 <section class="about-layout2">
     <div class="container">
         <div class="row">
@@ -14,6 +15,7 @@
                         <img src="{{ imageSecondary.url }}" alt="{{ imageSecondary.title }}" class="img-fluid">
                     </div><!-- /.about-img -->
                 </div>
+                {% if video.youtube %}
                 <div class="video-box">
                     <a class="video-btn video-btn-white popup-video" href="{{ video.youtube }}">
                         <div class="video-btn__player">
@@ -21,21 +23,27 @@
                         </div>
                     </a>
                 </div><!-- /.video__box -->
+                {% endif %}
             </div><!-- /.col-xl-5 -->
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="text-container heading-layout2">
                     <h3 class="heading__title">{{video.heading}}</h3>
                     <p class="heading__desc mt-30 mb-30">{{ video.subtitle }}</p>
                     <p class="heading__desc mb-30">{{ video.description }}</p>
+                    {% if video.usp %}
                     {% set usps = video.usp|split("\n") %}
                     <ul class="list-items list-unstyled mb-40">
                         {% for usp in usps %}
                         <li>{{ usp }}</li>
                         {% endfor %}
                     </ul>
+                    {% endif %}
+                    {% if btnEntry %}
                     <a href="{{ btnEntry.url }}" class="btn btn__secondary btn__icon"><i class="icon-arrow-right"></i><span>{{ btnEntry.title }}</span></a>
+                    {% endif %}
                 </div><!-- /heading -->
             </div><!-- /.col-xl-7 -->
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.About Layout 2 -->
+{% endif %}

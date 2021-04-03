@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 5e4913d6-ed0e-48fc-a49b-593cc43d370a
+handle: slider2
+instructions: ''
+name: Slider2
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_slider2}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

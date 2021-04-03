@@ -1,5 +1,5 @@
 fieldLayouts:
-  17e3110a-12cb-4f8e-8e3a-5a935a3b2d5c:
+  f2e7e450-dc1f-45a8-878c-45c6738e1151:
     tabs:
       -
         elements:
@@ -36,15 +36,6 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 20111be7-987a-4364-bf9a-90f35d955762
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
             fieldUid: 031f9d3a-0ebd-4464-90c8-181518a0a676
             instructions: null
             label: null
@@ -68,11 +59,11 @@ fieldLayouts:
             width: 100
         name: SEO
         sortOrder: 2
-handle: buitenLeven
-hasTitleField: true
-name: 'Buiten leven'
-section: 040bf137-dd04-4207-9292-a2ec3a10b199
+handle: rolluikenZonwering
+hasTitleField: false
+name: 'Rolluiken en zonwering'
+section: bb7afd91-77b7-4de6-a50a-bbfafd78ecd5
 sortOrder: 1
-titleFormat: null
+titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

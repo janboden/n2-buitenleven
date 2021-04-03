@@ -1,0 +1,20 @@
+{% if entry.about %}
+    {% set about = entry.about.one() %}
+    {% set image = about.image.one() %}
+<section class="about-layout3 pb-0">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="about__img mb-30"><img src="{{ image.url }}" alt="{{ image.title }}"></div><!-- /.about-img -->
+            </div><!-- /.col-lg-6 -->
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="heading-layout2 mb-30">
+                    <h2 class="heading__subtitle">{{ about.subtitle }}</h2>
+                    <h3 class="heading__title">{{ about.header }}</h3>
+                    <p class="heading__desc font-weight-normal mb-30 mt-40">{{ about.description }}</p>
+                </div>
+            </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.About Layout 3 -->
+{% endif %}
