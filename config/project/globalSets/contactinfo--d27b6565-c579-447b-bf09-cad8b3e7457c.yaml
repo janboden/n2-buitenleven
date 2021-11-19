@@ -58,3 +58,4 @@ fieldLayouts:
         sortOrder: 2
 handle: contactinfo
 name: Contactinfo
+sortOrder: 1

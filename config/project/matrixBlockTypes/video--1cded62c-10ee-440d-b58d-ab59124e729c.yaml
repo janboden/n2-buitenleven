@@ -94,6 +94,27 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Url
+  6bb59240-5314-420b-9313-22f3bb99258b:
+    contentColumnType: string
+    fieldGroup: null
+    handle: btn
+    instructions: ''
+    name: Button
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
   39859fa6-1365-422e-a85f-6dc12cc05548:
     contentColumnType: string
     fieldGroup: null
@@ -127,27 +148,6 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  6bb59240-5314-420b-9313-22f3bb99258b:
-    contentColumnType: string
-    fieldGroup: null
-    handle: btn
-    instructions: ''
-    name: Button
-    searchable: false
-    settings:
-      allowSelfRelations: false
-      limit: '1'
-      localizeRelations: false
-      selectionLabel: ''
-      showSiteMenu: true
-      source: null
-      sources: '*'
-      targetSiteId: null
-      validateRelatedElements: false
-      viewMode: null
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Entries
   a72ae909-9c61-4feb-be30-078b6b81e687:
     contentColumnType: text
     fieldGroup: null

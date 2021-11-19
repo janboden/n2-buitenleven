@@ -1,8 +1,13 @@
-dateModified: 1614025775
+dateModified: 1637334626
 email:
   fromEmail: jan@inteiro.be
   fromName: 'N2 Buiten Leven'
   transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0fa59c62-07f8-4803-9bb6-6eb234e621cc: Footer # Footer
+    172278cf-6f59-450f-8cf7-09fda3eba0f0: 'Sociale media' # Sociale media
+    d27b6565-c579-447b-bf09-cad8b3e7457c: Contactinfo # Contactinfo
 plugins:
   cookie-consent-banner:
     edition: standard
@@ -52,7 +57,7 @@ plugins:
   seo:
     edition: standard
     enabled: true
-    schemaVersion: 3.1.1
+    schemaVersion: 3.2.0
     settings:
       description: ''
       facebookAppId: ''
@@ -98,7 +103,7 @@ system:
   edition: solo
   live: true
   name: 'N2 Buiten Leven'
-  schemaVersion: 3.6.4
+  schemaVersion: 3.7.8
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

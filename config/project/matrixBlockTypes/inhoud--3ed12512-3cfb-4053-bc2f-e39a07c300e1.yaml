@@ -43,25 +43,6 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  40eadc69-aa11-4eaa-bbae-01bf6ecc0572:
-    contentColumnType: text
-    fieldGroup: null
-    handle: description
-    instructions: ''
-    name: Description
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
-      columnType: null
-      initialRows: '4'
-      multiline: '1'
-      placeholder: ''
-      uiMode: enlarged
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
   9b564739-6899-41bd-a1b6-8957971599cb:
     contentColumnType: string
     fieldGroup: null
@@ -111,6 +92,25 @@ fields:
       multiline: ''
       placeholder: ''
       uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  40eadc69-aa11-4eaa-bbae-01bf6ecc0572:
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: ''
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+      uiMode: enlarged
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText

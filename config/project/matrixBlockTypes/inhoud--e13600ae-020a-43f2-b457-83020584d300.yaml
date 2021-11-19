@@ -43,12 +43,12 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  88a6d1e8-c5c4-4974-b873-3b7fb1108f0f:
+  8c3cddd6-b342-4594-9537-9f4409b09801:
     contentColumnType: text
     fieldGroup: null
-    handle: header
+    handle: subtitle
     instructions: ''
-    name: Header
+    name: Subtitle
     searchable: false
     settings:
       byteLimit: null
@@ -62,12 +62,12 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  8c3cddd6-b342-4594-9537-9f4409b09801:
+  88a6d1e8-c5c4-4974-b873-3b7fb1108f0f:
     contentColumnType: text
     fieldGroup: null
-    handle: subtitle
+    handle: header
     instructions: ''
-    name: Subtitle
+    name: Header
     searchable: false
     settings:
       byteLimit: null

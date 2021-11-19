@@ -1,10 +1,10 @@
 {
   "require": {
-    "adigital/cookie-consent-banner": "1.2.7",
-    "craftcms/cms": "^3.5.10",
-    "ether/seo": "3.6.7",
+    "adigital/cookie-consent-banner": "1.2.8",
+    "craftcms/cms": "3.7.21",
+    "ether/seo": "3.7.4",
     "nystudio107/craft-minify": "1.2.10",
-    "verbb/navigation": "^1.4",
+    "verbb/navigation": "1.4.22",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {

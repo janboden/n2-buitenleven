@@ -43,12 +43,12 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  0985f336-930a-4cbe-9bc9-1a5b2dc98bfa:
+  2dddf412-5161-44c5-8745-ea2daad97ad5:
     contentColumnType: text
     fieldGroup: null
-    handle: subtitle
+    handle: header
     instructions: ''
-    name: Subtitle
+    name: Title
     searchable: false
     settings:
       byteLimit: null
@@ -62,12 +62,31 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  2dddf412-5161-44c5-8745-ea2daad97ad5:
+  857fe406-0c3a-4a12-ac1c-31a252701c9c:
     contentColumnType: text
     fieldGroup: null
-    handle: header
+    handle: description
     instructions: ''
-    name: Title
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  0985f336-930a-4cbe-9bc9-1a5b2dc98bfa:
+    contentColumnType: text
+    fieldGroup: null
+    handle: subtitle
+    instructions: ''
+    name: Subtitle
     searchable: false
     settings:
       byteLimit: null
@@ -114,25 +133,6 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  857fe406-0c3a-4a12-ac1c-31a252701c9c:
-    contentColumnType: text
-    fieldGroup: null
-    handle: description
-    instructions: ''
-    name: Description
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
-      columnType: null
-      initialRows: '4'
-      multiline: ''
-      placeholder: ''
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
 handle: inhoud
 name: Inhoud
 sortOrder: 1
