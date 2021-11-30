@@ -26,10 +26,37 @@ fieldLayouts:
             type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
+          -
+            fieldUid: 58c21f9e-ea4f-4540-b8e5-eb16cc1782a0 # Pagetitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 20111be7-987a-4364-bf9a-90f35d955762
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 69c8fef7-9f3c-4904-a863-7f1faae79456
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 handle: about
-hasTitleField: false
+hasTitleField: true
 name: 'Over N²'
 section: a6c40a0a-0671-45a6-820f-98a1b995e8e7
 sortOrder: 1

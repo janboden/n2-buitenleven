@@ -1,0 +1,18 @@
+{% if entry.pagetitle %}
+{% set pagetitle = entry.pagetitle.one() %}
+{% set pagetitleImage = pagetitle.image.one() %}
+<!-- ========================
+   page title
+=========================== -->
+<section class="page-title page-title-layout2 bg-overlay bg-parallax">
+    <div class="bg-img"><img src="{{ pagetitleImage.url }}" alt="background"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+                <h1 class="pagetitle__heading">{{ pagetitle.heading}}</h1>
+                <p class="pagetitle__desc mb-0">{{ pagetitle.subheading}}</p>
+            </div><!-- /.col-xl-6 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.page-title -->
+{% endif %}

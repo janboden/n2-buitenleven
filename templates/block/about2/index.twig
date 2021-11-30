@@ -1,4 +1,4 @@
-{% if entry.about2 %}
+{% if entry.about2 and entry.about2.one() %}
     {% set about2 = entry.about2.one() %}
     {% set image = about2.image.one() %}
 <section class="banner-layout3 py-0 bg-gray">

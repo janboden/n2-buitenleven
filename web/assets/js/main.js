@@ -129,7 +129,7 @@ $(function () {
             $(contactResult, contactForm).html('Please Wait...');
             $.ajax({
                 type: "POST",
-                url: "assets/php/contact.php",
+                url: $(contactForm).attr('action'),
                 data: $(contactForm).serialize(),
                 timeout: 20000,
                 success: function (msg) {

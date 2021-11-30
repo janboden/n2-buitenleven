@@ -38,10 +38,10 @@
                     </div><!-- /.footer-widget-content -->
                 </div><!-- /.col-xl-2 -->
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 footer-widget footer-widget-contact">
-                    <h6 class="footer-widget-title">Quick Contact</h6>
+                    <h6 class="footer-widget-title">{{ 'Quick Contact' | t('general') }}</h6>
                     <div class="footer-widget-content">
                         <p class="mb-20">Indien je met vragen zit, neem gerust contact met ons op.</p>
-                        <a class="contact-number contact-number-white d-flex align-items-center mb-20" href="tel:5565454117">
+                        <a class="contact-number contact-number-white d-flex align-items-center mb-20" href="tel:{{ contactinfo.phone }}">
                             <i class="icon-phone"></i><span>{{ contactinfo.phone }}</span>
                         </a><!-- /.contact__numbr -->
                         <p class="mb-30">{{ contactinfo.addresse }}</p>

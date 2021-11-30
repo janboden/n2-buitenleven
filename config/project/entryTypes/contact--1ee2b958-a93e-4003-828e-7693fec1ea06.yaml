@@ -10,8 +10,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: null
-            label: null
+            instructions: ''
+            label: ''
             max: null
             min: null
             name: null
@@ -24,6 +24,33 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 993ce49d-45ac-4bbc-8c2e-e8d18201c18b # Inhoud
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9403ae2f-7a0b-4674-8dde-53f6b27ff353
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 017df12e-c23a-4778-a575-be6bc8e30d28
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
         name: Content
@@ -42,9 +69,9 @@ fieldLayouts:
         name: SEO
         sortOrder: 2
 handle: contact
-hasTitleField: false
+hasTitleField: true
 name: Contact
-section: 6350fd46-75ed-4c68-87f4-59c4d59225f6
+section: 6350fd46-75ed-4c68-87f4-59c4d59225f6 # Contact
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

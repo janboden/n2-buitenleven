@@ -1,4 +1,4 @@
-dateModified: 1637334626
+dateModified: 1637938392
 email:
   fromEmail: jan@inteiro.be
   fromName: 'N2 Buiten Leven'
@@ -6,9 +6,35 @@ email:
 meta:
   __names__:
     0fa59c62-07f8-4803-9bb6-6eb234e621cc: Footer # Footer
+    1ee2b958-a93e-4003-828e-7693fec1ea06: Contact # Contact
+    3fb792c3-ecee-40e3-9f37-98f779fc4275: Image # Image
+    5ed33758-cc2d-4198-90f9-217e910afb50: Inhoud # Inhoud
+    6b35b821-027c-4f37-9b02-ab413c779b50: 'Buiten leven' # Buiten leven
+    58c21f9e-ea4f-4540-b8e5-eb16cc1782a0: Pagetitle # Pagetitle
+    93faf1a7-15c2-4426-8ef6-a8228690fe70: Subheading # Subheading
+    993ce49d-45ac-4bbc-8c2e-e8d18201c18b: Inhoud # Inhoud
+    6350fd46-75ed-4c68-87f4-59c4d59225f6: Contact # Contact
     172278cf-6f59-450f-8cf7-09fda3eba0f0: 'Sociale media' # Sociale media
+    1952691a-e332-4ff1-9c5f-d1943ce38caf: Heading # Heading
+    46684890-a6fd-476a-a2f7-7626c39c7216: 'Over N²' # Over N²
     d27b6565-c579-447b-bf09-cad8b3e7457c: Contactinfo # Contactinfo
 plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      prependSender: 'Namens Tom van N2'
+      prependSubject: 'New message from N2 Buiten Leven'
+      successFlashMessage: 'Jouw bericht is verstuurd.'
+      toEmail: $CONTACT_FORM_EMAIL
+  contact-form-honeypot:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      honeypotParam: buitenpot\
   cookie-consent-banner:
     edition: standard
     enabled: true
@@ -54,6 +80,10 @@ plugins:
     enabled: true
     licenseKey: 905MIQ77HD1XYWOFAEARGTH3
     schemaVersion: 1.0.21
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
   seo:
     edition: standard
     enabled: true
@@ -103,8 +133,9 @@ system:
   edition: solo
   live: true
   name: 'N2 Buiten Leven'
+  retryDuration: null
   schemaVersion: 3.7.8
-  timeZone: America/Los_Angeles
+  timeZone: Europe/Brussels
 users:
   allowPublicRegistration: false
   defaultGroup: null

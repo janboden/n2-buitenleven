@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+{% include 'elements/head' %}
+
+<body>
+<div class="wrapper">
+    <div class="preloader">
+        <div class="spinner"><span class="cube1"></span><span class="cube2"></span></div>
+    </div><!-- /.preloader -->
+
+    <!-- =========================
+        Header
+    =========================== -->
+    {% include 'elements/header' %}
+
+    {% include 'block/slider/index' %}
+    {% include 'block/slider2/index' %}
+
+    <!-- ============================
+        Form
+    ============================== -->
+    <section class="contact-layout1 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="contact-panel__info bg-gray mb-30">
+                        <div class="contact-panel__block">
+                            <h5 class="contact-panel__block__title">{{ 'Our Location' | t('general') }}</h5>
+                            <ul class="contact-panel__block__list list-unstyled">
+                                <li>{{ contactinfo.addresse }}</li>
+                            </ul>
+                        </div><!-- /.contact-panel__info__block -->
+                        <div class="contact-panel__block">
+                            <h5 class="contact-panel__block__title">{{ 'Quick contact' | t('general') }}</h5>
+                            <ul class="contact-panel__block__list list-unstyled">
+                                <li><a href="mailto:{{ contactinfo.email }}"></a>Email: {{ contactinfo.email }}</li>
+                                <li><a href="tel:{{ contactinfo.phone }}"></a>Tel: {{ contactinfo.phone }}</li>
+                            </ul>
+                        </div><!-- /.contact-panel__info__block -->
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7 offset-lg-1">
+                    {% include 'block/contact/form' %}
+                </div><!-- /.col-lg-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
+
+
+
+
+    {% include 'elements/footer' %}
+
+</div><!-- /.wrapper -->
+{% include 'elements/scripts/bottom' %}
+</body>
+</html>
