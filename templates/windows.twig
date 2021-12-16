@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+{% include 'elements/head' %}
+
+<body>
+<div class="wrapper">
+    <div class="preloader">
+        <div class="spinner"><span class="cube1"></span><span class="cube2"></span></div>
+    </div><!-- /.preloader -->
+
+    <!-- =========================
+        Header
+    =========================== -->
+    {% include 'elements/header' %}
+
+    {% include 'block/slider2/index' %}
+
+    {% include 'block/about/index' %}
+
+    {% include 'block/video/index' %}
+
+    {% include 'block/about2/index' %}
+
+    {% include 'elements/footer' %}
+
+</div><!-- /.wrapper -->
+{% include 'elements/scripts/bottom' %}
+</body>
+</html>

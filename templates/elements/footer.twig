@@ -11,7 +11,7 @@
                         <p class="mb-20">{{ footer.col1Description }}</p>
                     </div>
                 </div><!-- /.col-xl-4 -->
-                <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer-widget footer-widget-nav">
+                <div class="col-sm-8 col-md-4 col-lg-3 col-xl-4 footer-widget footer-widget-nav">
                     <h6 class="footer-widget-title">{{ footer.col2Header }}</h6>
                     <div class="footer-widget-content">
                         <nav>
@@ -24,27 +24,14 @@
                         </nav>
                     </div><!-- /.footer-widget-content -->
                 </div><!-- /.col-xl-2 -->
-                <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer-widget footer-widget-nav">
-                    <h6 class="footer-widget-title">{{ footer.col3Header }}</h6>
-                    <div class="footer-widget-content">
-                        <nav>
-                            {{ craft.navigation.render('footerCol3', {
-                                ulClass: 'list-unstyled',
-                                liClass: '',
-                                aClass: '',
-                                activeClass: ''
-                            }) }}
-                        </nav>
-                    </div><!-- /.footer-widget-content -->
-                </div><!-- /.col-xl-2 -->
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 footer-widget footer-widget-contact">
-                    <h6 class="footer-widget-title">{{ 'Quick Contact' | t('general') }}</h6>
+                    <h6 class="footer-widget-title">{{ footer.col3Header }}</h6>
                     <div class="footer-widget-content">
                         <p class="mb-20">Indien je met vragen zit, neem gerust contact met ons op.</p>
                         <a class="contact-number contact-number-white d-flex align-items-center mb-20" href="tel:{{ contactinfo.phone }}">
                             <i class="icon-phone"></i><span>{{ contactinfo.phone }}</span>
                         </a><!-- /.contact__numbr -->
-                        <p class="mb-30">{{ contactinfo.addresse }}</p>
+                        <p class="mb-30">{{ contactinfo.addresse |nl2br }}</p>
                         <ul class="social-icons list-unstyled">
                             {% if socialmedia.facebook %}<li><a href="{{ socialmedia.facebook }}"><i class="fab fa-facebook-f"></i></a></li>{% endif %}
                             {% if socialmedia.instagram %}<li><a href="{{ socialmedia.instagram }}"><i class="fab fa-instagram"></i></a></li>{% endif %}
