@@ -1,22 +1,23 @@
 {% if entry.about2 and entry.about2.one() %}
-    {% set about2 = entry.about2.one() %}
-    {% set image = about2.image.one() %}
-<section class="banner-layout3 py-0 bg-gray">
-    <div class="container-fluid col-padding-0">
-        <div class="row align-items-center">
-            <div class="col-sm-12 col-md-12 col-lg-5">
-                <div class="banner-panel">
-                    <div class="heading-layout2 mb-40">
-                        <h2 class="heading__subtitle">{{ about2.subtitle }}</h2>
-                        <h3 class="heading__title">{{about2.header}}</h3>
-                        <p class="heading__desc">{{ about2.description }}</p>
-                    </div><!-- /.heading -->
-                </div><!-- /.banner-panel -->
-            </div><!-- /.col-lg-6 -->
-            <div class="col-sm-12 col-md-12 col-lg-7">
-                <img src="{{ image.url }}" alt="{{ image.title }}" class="w-100">
-            </div><!-- /.col-lg-6 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-</section>
+    {% for about2 in entry.about %}
+        {% set image = about2.image.one() %}
+    <section class="banner-layout3 py-0 bg-gray">
+        <div class="container-fluid col-padding-0">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="banner-panel">
+                        <div class="heading-layout2 mb-40">
+                            <h2 class="heading__subtitle">{{ about2.subtitle }}</h2>
+                            <h3 class="heading__title">{{about2.header}}</h3>
+                            <p class="heading__desc">{{ about2.description }}</p>
+                        </div><!-- /.heading -->
+                    </div><!-- /.banner-panel -->
+                </div><!-- /.col-lg-6 -->
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <img src="{{ image.url }}" alt="{{ image.title }}" class="w-100">
+                </div><!-- /.col-lg-6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
+    {% endfor %}
 {% endif %}
