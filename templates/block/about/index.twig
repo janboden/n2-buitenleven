@@ -1,5 +1,5 @@
 {% if entry.about %}
-    {% for k, about in entry.about %}
+    {% for k, about in entry.about.all() %}
         {% set remainder = k % 3 %}
         {% if remainder == 0 %}
             {% include 'block/about/image-left-text-right-without-block' %}
