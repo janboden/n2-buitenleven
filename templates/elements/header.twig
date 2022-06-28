@@ -43,12 +43,26 @@
                 <span class="menu-lines"><span></span></span>
             </button>
             <div class="collapse navbar-collapse" id="mainNavigation">
-                {{ craft.navigation.render('mainNavigation', {
-                    ulClass: 'navbar-nav ml-auto',
-                    liClass: 'nav__item',
-                    aClass: 'nav__item-link',
-                    activeClass: 'active'
-                }) }}
+                {% set nodes = craft.navigation.nodes()
+                    .handle('mainNavigation')
+                    .all() %}
+
+                <ul class="navbar-nav ml-auto">
+                    {% nav node in nodes %}
+                        <li class="nav__item {% if node.classes | length %}{{ node.classes }}{% endif %} {% if node.hasDescendants %} with-dropdown {% endif %}">
+                            <a {% if node.url %}href="{{ node.url }}"{% endif %} class="nav__item-link {% if node.active %}active{% endif %}"{% if node.newWindow %} target="_blank" rel="noopener"{% endif %} {% for attribute in node.customAttributes %}{{ attribute.attribute }}="{{ attribute.value }}"{% endfor %}>
+                            {{- node.title -}}
+                            </a>
+
+                            {% ifchildren %}
+                                <ul class="dropdown-menu">
+                                    {% children %}
+                                </ul>
+                            {% endifchildren %}
+                        </li>
+                    {% endnav %}
+                </ul>
+
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container -->
     </nav><!-- /.navabr -->
