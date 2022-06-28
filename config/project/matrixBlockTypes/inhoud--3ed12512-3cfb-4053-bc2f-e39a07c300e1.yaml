@@ -1,29 +1,11 @@
-field: 20111be7-987a-4364-bf9a-90f35d955762
+field: 20111be7-987a-4364-bf9a-90f35d955762 # About
 fieldLayouts:
   4a4e19c8-2900-448e-8768-3f8268c39d34:
     tabs:
       -
         elements:
           -
-            fieldUid: 9fa5e361-1bfd-4714-be76-0a9469e26258
-            instructions: null
-            label: null
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: bdded17f-fb36-4be6-815b-f8fafdfe1fd9
-            instructions: null
-            label: null
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 40eadc69-aa11-4eaa-bbae-01bf6ecc0572
+            fieldUid: 9fa5e361-1bfd-4714-be76-0a9469e26258 # Subtitle
             instructions: null
             label: null
             required: false
@@ -32,7 +14,25 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 9b564739-6899-41bd-a1b6-8957971599cb
+            fieldUid: bdded17f-fb36-4be6-815b-f8fafdfe1fd9 # Header
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 40eadc69-aa11-4eaa-bbae-01bf6ecc0572 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9b564739-6899-41bd-a1b6-8957971599cb # Image
             instructions: null
             label: null
             required: false
@@ -43,7 +43,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  9b564739-6899-41bd-a1b6-8957971599cb:
+  9b564739-6899-41bd-a1b6-8957971599cb: # Image
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: image
@@ -76,7 +77,8 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  9fa5e361-1bfd-4714-be76-0a9469e26258:
+  9fa5e361-1bfd-4714-be76-0a9469e26258: # Subtitle
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: subtitle
@@ -90,12 +92,13 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  40eadc69-aa11-4eaa-bbae-01bf6ecc0572:
+  40eadc69-aa11-4eaa-bbae-01bf6ecc0572: # Description
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: description
@@ -109,12 +112,13 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: '1'
-      placeholder: ''
+      placeholder: null
       uiMode: enlarged
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  bdded17f-fb36-4be6-815b-f8fafdfe1fd9:
+  bdded17f-fb36-4be6-815b-f8fafdfe1fd9: # Header
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: header
@@ -128,7 +132,7 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none

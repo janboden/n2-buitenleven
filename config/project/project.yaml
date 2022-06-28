@@ -1,4 +1,4 @@
-dateModified: 1637938392
+dateModified: 1648759880
 email:
   fromEmail: jan@inteiro.be
   fromName: 'N2 Buiten Leven'
@@ -6,18 +6,43 @@ email:
 meta:
   __names__:
     0fa59c62-07f8-4803-9bb6-6eb234e621cc: Footer # Footer
+    1bbab94c-f7e3-4b59-ac73-00eb765dcd39: 'Youtube Link' # Youtube Link
+    1cded62c-10ee-440d-b58d-ab59124e729c: Video # Video
     1ee2b958-a93e-4003-828e-7693fec1ea06: Contact # Contact
+    3ed12512-3cfb-4053-bc2f-e39a07c300e1: Inhoud # Inhoud
     3fb792c3-ecee-40e3-9f37-98f779fc4275: Image # Image
     5ed33758-cc2d-4198-90f9-217e910afb50: Inhoud # Inhoud
     6b35b821-027c-4f37-9b02-ab413c779b50: 'Buiten leven' # Buiten leven
+    6bb59240-5314-420b-9313-22f3bb99258b: Button # Button
+    7d393000-5764-45ee-8ef8-8a763d3b13f7: Description # Description
+    9ae6a83f-50e9-4229-92ab-8345d7daf54a: Feature # Feature
+    9b564739-6899-41bd-a1b6-8957971599cb: Image # Image
+    9fa5e361-1bfd-4714-be76-0a9469e26258: Subtitle # Subtitle
+    031f9d3a-0ebd-4464-90c8-181518a0a676: Video # Video
+    40eadc69-aa11-4eaa-bbae-01bf6ecc0572: Description # Description
     58c21f9e-ea4f-4540-b8e5-eb16cc1782a0: Pagetitle # Pagetitle
+    068b7a2f-47d8-43f5-9096-416deb09344f: Zonwering # Zonwering
     93faf1a7-15c2-4426-8ef6-a8228690fe70: Subheading # Subheading
+    340e0520-333d-41b3-9fd3-854bb4e955f4: 'Ramen en deuren' # Ramen en deuren
+    654d17cd-1701-4fdf-b7c0-38696d55e9c7: Button # Button
     993ce49d-45ac-4bbc-8c2e-e8d18201c18b: Inhoud # Inhoud
     6350fd46-75ed-4c68-87f4-59c4d59225f6: Contact # Contact
+    20111be7-987a-4364-bf9a-90f35d955762: About # About
+    39859fa6-1365-422e-a85f-6dc12cc05548: 'Afbeelding 2' # Afbeelding 2
     172278cf-6f59-450f-8cf7-09fda3eba0f0: 'Sociale media' # Sociale media
+    495739ba-ab45-4dd5-bb2a-7c6a82b657f4: 'N2 Buitenleven' # N2 Buitenleven
     1952691a-e332-4ff1-9c5f-d1943ce38caf: Heading # Heading
+    39477821-209b-40f3-8421-e884d055f66c: Features # Features
     46684890-a6fd-476a-a2f7-7626c39c7216: 'Over N²' # Over N²
+    a72ae909-9c61-4feb-be30-078b6b81e687: USP # USP
+    b42a32aa-b28d-449b-8b86-c6faf7be3c8e: subTitle # subTitle
+    bb7afd91-77b7-4de6-a50a-bbfafd78ecd5: Zonwering # Zonwering
+    bbd5ba34-7a22-478b-b5ad-ee41644e6970: 'Afbeelding 1' # Afbeelding 1
+    bdded17f-fb36-4be6-815b-f8fafdfe1fd9: Header # Header
+    d9e3dc57-f8a5-427c-8e75-7a95f82a19d9: Heading # Heading
     d27b6565-c579-447b-bf09-cad8b3e7457c: Contactinfo # Contactinfo
+    dee29ced-14aa-48b7-8add-5b871c620f2d: Description # Description
+    e304dd92-2441-4b42-bd28-7c7388d59106: Heading # Heading
 plugins:
   contact-form:
     edition: standard
@@ -132,9 +157,9 @@ plugins:
 system:
   edition: solo
   live: true
-  name: 'N2 Buiten Leven'
+  name: 'N2 Buitenleven'
   retryDuration: null
-  schemaVersion: 3.7.8
+  schemaVersion: 3.7.33
   timeZone: Europe/Brussels
 users:
   allowPublicRegistration: false

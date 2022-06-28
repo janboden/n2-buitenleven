@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 20111be7-987a-4364-bf9a-90f35d955762
+            fieldUid: 20111be7-987a-4364-bf9a-90f35d955762 # About
             instructions: null
             label: null
             required: false

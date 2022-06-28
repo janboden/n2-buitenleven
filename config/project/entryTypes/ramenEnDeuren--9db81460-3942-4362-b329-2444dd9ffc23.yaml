@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 20111be7-987a-4364-bf9a-90f35d955762
+            fieldUid: 20111be7-987a-4364-bf9a-90f35d955762 # About
             instructions: null
             label: null
             required: false
@@ -54,7 +54,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 031f9d3a-0ebd-4464-90c8-181518a0a676
+            fieldUid: 031f9d3a-0ebd-4464-90c8-181518a0a676 # Video
             instructions: null
             label: null
             required: false
@@ -80,7 +80,7 @@ fieldLayouts:
 handle: ramenEnDeuren
 hasTitleField: false
 name: 'Ramen en deuren'
-section: 340e0520-333d-41b3-9fd3-854bb4e955f4
+section: 340e0520-333d-41b3-9fd3-854bb4e955f4 # Ramen en deuren
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

@@ -21,7 +21,7 @@ permissions:
     enabled: '1'
 propagateNodes: false
 siteSettings:
-  495739ba-ab45-4dd5-bb2a-7c6a82b657f4: null
+  495739ba-ab45-4dd5-bb2a-7c6a82b657f4: null # N2 Buitenleven
 sortOrder: 3
 structure:
   maxLevels: null

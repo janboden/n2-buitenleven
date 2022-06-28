@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 20111be7-987a-4364-bf9a-90f35d955762
+            fieldUid: 20111be7-987a-4364-bf9a-90f35d955762 # About
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 031f9d3a-0ebd-4464-90c8-181518a0a676
+            fieldUid: 031f9d3a-0ebd-4464-90c8-181518a0a676 # Video
             instructions: null
             label: null
             required: false

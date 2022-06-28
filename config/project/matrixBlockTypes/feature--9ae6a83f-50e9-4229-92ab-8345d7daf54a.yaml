@@ -1,11 +1,11 @@
-field: 39477821-209b-40f3-8421-e884d055f66c
+field: 39477821-209b-40f3-8421-e884d055f66c # Features
 fieldLayouts:
   bb17c831-028c-46a3-aa08-487d6895f4b3:
     tabs:
       -
         elements:
           -
-            fieldUid: e304dd92-2441-4b42-bd28-7c7388d59106
+            fieldUid: e304dd92-2441-4b42-bd28-7c7388d59106 # Heading
             instructions: null
             label: null
             required: true
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 7d393000-5764-45ee-8ef8-8a763d3b13f7
+            fieldUid: 7d393000-5764-45ee-8ef8-8a763d3b13f7 # Description
             instructions: null
             label: null
             required: false
@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 654d17cd-1701-4fdf-b7c0-38696d55e9c7
+            fieldUid: 654d17cd-1701-4fdf-b7c0-38696d55e9c7 # Button
             instructions: null
             label: null
             required: true
@@ -34,7 +34,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  7d393000-5764-45ee-8ef8-8a763d3b13f7:
+  7d393000-5764-45ee-8ef8-8a763d3b13f7: # Description
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: description
@@ -48,12 +49,13 @@ fields:
       columnType: null
       initialRows: '2'
       multiline: '1'
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  654d17cd-1701-4fdf-b7c0-38696d55e9c7:
+  654d17cd-1701-4fdf-b7c0-38696d55e9c7: # Button
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: btn
@@ -74,7 +76,8 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Entries
-  e304dd92-2441-4b42-bd28-7c7388d59106:
+  e304dd92-2441-4b42-bd28-7c7388d59106: # Heading
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: heading
@@ -88,7 +91,7 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none

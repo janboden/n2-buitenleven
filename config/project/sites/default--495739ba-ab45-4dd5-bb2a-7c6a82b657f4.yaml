@@ -1,8 +1,9 @@
 baseUrl: $PRIMARY_SITE_URL
+enabled: true
 handle: default
 hasUrls: true
 language: nl-BE
-name: 'N2 Buiten Leven'
+name: 'N2 Buitenleven'
 primary: true
 siteGroup: d639e15e-3837-4538-96ee-922b22f96798
 sortOrder: 1

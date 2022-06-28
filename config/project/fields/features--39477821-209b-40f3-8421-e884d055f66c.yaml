@@ -1,3 +1,4 @@
+columnSuffix: null
 contentColumnType: string
 fieldGroup: 5e4913d6-ed0e-48fc-a49b-593cc43d370a
 handle: features
@@ -6,8 +7,9 @@ name: Features
 searchable: false
 settings:
   contentTable: '{{%matrixcontent_features}}'
-  maxBlocks: ''
-  minBlocks: ''
+  maxBlocks: '3'
+  minBlocks: '1'
+  propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null
 translationMethod: site

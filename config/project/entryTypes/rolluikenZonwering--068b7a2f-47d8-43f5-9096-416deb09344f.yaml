@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 031f9d3a-0ebd-4464-90c8-181518a0a676
+            fieldUid: 031f9d3a-0ebd-4464-90c8-181518a0a676 # Video
             instructions: null
             label: null
             required: false
@@ -61,8 +61,8 @@ fieldLayouts:
         sortOrder: 2
 handle: rolluikenZonwering
 hasTitleField: false
-name: 'Rolluiken en zonwering'
-section: bb7afd91-77b7-4de6-a50a-bbfafd78ecd5
+name: Zonwering
+section: bb7afd91-77b7-4de6-a50a-bbfafd78ecd5 # Zonwering
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

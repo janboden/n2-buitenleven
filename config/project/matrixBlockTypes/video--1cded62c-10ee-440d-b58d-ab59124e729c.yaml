@@ -1,11 +1,11 @@
-field: 031f9d3a-0ebd-4464-90c8-181518a0a676
+field: 031f9d3a-0ebd-4464-90c8-181518a0a676 # Video
 fieldLayouts:
   e1434bf7-5bd8-48dd-85e9-fb509c55ce62:
     tabs:
       -
         elements:
           -
-            fieldUid: d9e3dc57-f8a5-427c-8e75-7a95f82a19d9
+            fieldUid: d9e3dc57-f8a5-427c-8e75-7a95f82a19d9 # Heading
             instructions: null
             label: null
             required: true
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: b42a32aa-b28d-449b-8b86-c6faf7be3c8e
+            fieldUid: b42a32aa-b28d-449b-8b86-c6faf7be3c8e # subTitle
             instructions: null
             label: null
             required: false
@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: dee29ced-14aa-48b7-8add-5b871c620f2d
+            fieldUid: dee29ced-14aa-48b7-8add-5b871c620f2d # Description
             instructions: null
             label: null
             required: true
@@ -32,7 +32,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: a72ae909-9c61-4feb-be30-078b6b81e687
+            fieldUid: a72ae909-9c61-4feb-be30-078b6b81e687 # USP
             instructions: null
             label: null
             required: false
@@ -41,7 +41,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 6bb59240-5314-420b-9313-22f3bb99258b
+            fieldUid: 6bb59240-5314-420b-9313-22f3bb99258b # Button
             instructions: null
             label: null
             required: false
@@ -50,7 +50,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: bbd5ba34-7a22-478b-b5ad-ee41644e6970
+            fieldUid: bbd5ba34-7a22-478b-b5ad-ee41644e6970 # Afbeelding 1
             instructions: null
             label: null
             required: true
@@ -59,7 +59,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 39859fa6-1365-422e-a85f-6dc12cc05548
+            fieldUid: 39859fa6-1365-422e-a85f-6dc12cc05548 # Afbeelding 2
             instructions: null
             label: null
             required: true
@@ -68,7 +68,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 1bbab94c-f7e3-4b59-ac73-00eb765dcd39
+            fieldUid: 1bbab94c-f7e3-4b59-ac73-00eb765dcd39 # Youtube Link
             instructions: null
             label: null
             required: false
@@ -79,7 +79,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  1bbab94c-f7e3-4b59-ac73-00eb765dcd39:
+  1bbab94c-f7e3-4b59-ac73-00eb765dcd39: # Youtube Link
+    columnSuffix: null
     contentColumnType: string(255)
     fieldGroup: null
     handle: youtube
@@ -94,7 +95,8 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Url
-  6bb59240-5314-420b-9313-22f3bb99258b:
+  6bb59240-5314-420b-9313-22f3bb99258b: # Button
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: btn
@@ -115,7 +117,8 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Entries
-  39859fa6-1365-422e-a85f-6dc12cc05548:
+  39859fa6-1365-422e-a85f-6dc12cc05548: # Afbeelding 2
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: imageSecondary
@@ -148,7 +151,8 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  a72ae909-9c61-4feb-be30-078b6b81e687:
+  a72ae909-9c61-4feb-be30-078b6b81e687: # USP
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: usp
@@ -162,12 +166,13 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: '1'
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  b42a32aa-b28d-449b-8b86-c6faf7be3c8e:
+  b42a32aa-b28d-449b-8b86-c6faf7be3c8e: # subTitle
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: subtitle
@@ -181,12 +186,13 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  bbd5ba34-7a22-478b-b5ad-ee41644e6970:
+  bbd5ba34-7a22-478b-b5ad-ee41644e6970: # Afbeelding 1
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: imageMain
@@ -219,7 +225,8 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  d9e3dc57-f8a5-427c-8e75-7a95f82a19d9:
+  d9e3dc57-f8a5-427c-8e75-7a95f82a19d9: # Heading
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: heading
@@ -233,12 +240,13 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  dee29ced-14aa-48b7-8add-5b871c620f2d:
+  dee29ced-14aa-48b7-8add-5b871c620f2d: # Description
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: description
@@ -252,7 +260,7 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: '1'
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none

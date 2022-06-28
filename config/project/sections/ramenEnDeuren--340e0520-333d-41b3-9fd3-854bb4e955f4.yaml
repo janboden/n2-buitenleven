@@ -1,11 +1,12 @@
+defaultPlacement: end
 enableVersioning: true
 handle: ramenEnDeuren
 name: 'Ramen en deuren'
 propagationMethod: all
 siteSettings:
-  495739ba-ab45-4dd5-bb2a-7c6a82b657f4:
+  495739ba-ab45-4dd5-bb2a-7c6a82b657f4: # N2 Buitenleven
     enabledByDefault: true
     hasUrls: true
-    template: category
+    template: windows
     uriFormat: ramen-en-deuren
 type: single
