@@ -1,3 +1,4 @@
+columnSuffix: null
 contentColumnType: string
 fieldGroup: 5e4913d6-ed0e-48fc-a49b-593cc43d370a
 handle: slider
@@ -6,8 +7,9 @@ name: Slider
 searchable: false
 settings:
   contentTable: '{{%matrixcontent_slider}}'
-  maxBlocks: '5'
-  minBlocks: '1'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null
 translationMethod: site

@@ -1,11 +1,11 @@
-field: 9403ae2f-7a0b-4674-8dde-53f6b27ff353
+field: 9403ae2f-7a0b-4674-8dde-53f6b27ff353 # Slider
 fieldLayouts:
   9d76ae5e-a300-45ee-9a33-85679c2ba7f0:
     tabs:
       -
         elements:
           -
-            fieldUid: 38eca1b1-4d57-449a-8e19-f30b2549f551
+            fieldUid: 38eca1b1-4d57-449a-8e19-f30b2549f551 # Titel
             instructions: null
             label: null
             required: true
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 7f1aa322-426e-4ae7-8c6e-eb34d739df74
+            fieldUid: 7f1aa322-426e-4ae7-8c6e-eb34d739df74 # Subtitel
             instructions: null
             label: null
             required: false
@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 2f812ee4-1836-46d3-a361-c406fd315a66
+            fieldUid: 2f812ee4-1836-46d3-a361-c406fd315a66 # Beschrijving
             instructions: null
             label: null
             required: false
@@ -32,7 +32,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 9de6491f-6e9a-406e-8040-285511749958
+            fieldUid: 9de6491f-6e9a-406e-8040-285511749958 # Afbeelding
             instructions: null
             label: null
             required: false
@@ -41,7 +41,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 8112ebe6-f1a8-41a9-a6c2-f2d410ebed8f
+            fieldUid: 8112ebe6-f1a8-41a9-a6c2-f2d410ebed8f # Knop 1
             instructions: null
             label: null
             required: false
@@ -50,7 +50,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 308eaded-c544-4be8-9917-816799645d84
+            fieldUid: 308eaded-c544-4be8-9917-816799645d84 # Knop 2
             instructions: null
             label: null
             required: false
@@ -61,7 +61,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  2f812ee4-1836-46d3-a361-c406fd315a66:
+  2f812ee4-1836-46d3-a361-c406fd315a66: # Beschrijving
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: description
@@ -75,12 +76,13 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  7f1aa322-426e-4ae7-8c6e-eb34d739df74:
+  7f1aa322-426e-4ae7-8c6e-eb34d739df74: # Subtitel
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: subtitle
@@ -94,12 +96,13 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  9de6491f-6e9a-406e-8040-285511749958:
+  9de6491f-6e9a-406e-8040-285511749958: # Afbeelding
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: image
@@ -132,7 +135,8 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  38eca1b1-4d57-449a-8e19-f30b2549f551:
+  38eca1b1-4d57-449a-8e19-f30b2549f551: # Titel
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: header
@@ -146,12 +150,13 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  308eaded-c544-4be8-9917-816799645d84:
+  308eaded-c544-4be8-9917-816799645d84: # Knop 2
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: btnSecondary
@@ -172,7 +177,8 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Entries
-  8112ebe6-f1a8-41a9-a6c2-f2d410ebed8f:
+  8112ebe6-f1a8-41a9-a6c2-f2d410ebed8f: # Knop 1
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: btnMain

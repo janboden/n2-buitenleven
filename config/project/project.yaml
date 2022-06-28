@@ -1,4 +1,4 @@
-dateModified: 1656407773
+dateModified: 1656410495
 email:
   fromEmail: jan@inteiro.be
   fromName: 'N2 Buiten Leven'
@@ -9,25 +9,33 @@ meta:
     1bbab94c-f7e3-4b59-ac73-00eb765dcd39: 'Youtube Link' # Youtube Link
     1cded62c-10ee-440d-b58d-ab59124e729c: Video # Video
     1ee2b958-a93e-4003-828e-7693fec1ea06: Contact # Contact
+    2f812ee4-1836-46d3-a361-c406fd315a66: Beschrijving # Beschrijving
     3ed12512-3cfb-4053-bc2f-e39a07c300e1: Inhoud # Inhoud
     3fb792c3-ecee-40e3-9f37-98f779fc4275: Image # Image
     5ed33758-cc2d-4198-90f9-217e910afb50: Inhoud # Inhoud
     6b35b821-027c-4f37-9b02-ab413c779b50: 'Buiten leven' # Buiten leven
     6bb59240-5314-420b-9313-22f3bb99258b: Button # Button
     7d393000-5764-45ee-8ef8-8a763d3b13f7: Description # Description
+    7f1aa322-426e-4ae7-8c6e-eb34d739df74: Subtitel # Subtitel
     9ae6a83f-50e9-4229-92ab-8345d7daf54a: Feature # Feature
     9b564739-6899-41bd-a1b6-8957971599cb: Image # Image
+    9cad2396-e443-4c72-88ef-bb40523864f5: slide # slide
+    9de6491f-6e9a-406e-8040-285511749958: Afbeelding # Afbeelding
     9fa5e361-1bfd-4714-be76-0a9469e26258: Subtitle # Subtitle
     30cd21bc-6de2-4e3a-ad4c-37b12bc984ef: 'Hoofd navigatie' # Hoofd navigatie
     031f9d3a-0ebd-4464-90c8-181518a0a676: Video # Video
+    38eca1b1-4d57-449a-8e19-f30b2549f551: Titel # Titel
     40eadc69-aa11-4eaa-bbae-01bf6ecc0572: Description # Description
     58c21f9e-ea4f-4540-b8e5-eb16cc1782a0: Pagetitle # Pagetitle
     068b7a2f-47d8-43f5-9096-416deb09344f: Zonwering # Zonwering
     93faf1a7-15c2-4426-8ef6-a8228690fe70: Subheading # Subheading
+    308eaded-c544-4be8-9917-816799645d84: 'Knop 2' # Knop 2
     340e0520-333d-41b3-9fd3-854bb4e955f4: 'Ramen en deuren' # Ramen en deuren
     654d17cd-1701-4fdf-b7c0-38696d55e9c7: Button # Button
     993ce49d-45ac-4bbc-8c2e-e8d18201c18b: Inhoud # Inhoud
     6350fd46-75ed-4c68-87f4-59c4d59225f6: Contact # Contact
+    8112ebe6-f1a8-41a9-a6c2-f2d410ebed8f: 'Knop 1' # Knop 1
+    9403ae2f-7a0b-4674-8dde-53f6b27ff353: Slider # Slider
     20111be7-987a-4364-bf9a-90f35d955762: About # About
     39859fa6-1365-422e-a85f-6dc12cc05548: 'Afbeelding 2' # Afbeelding 2
     172278cf-6f59-450f-8cf7-09fda3eba0f0: 'Sociale media' # Sociale media
