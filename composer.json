@@ -1,10 +1,10 @@
 {
   "require": {
     "adigital/cookie-consent-banner": "1.2.9",
-    "craftcms/cms": "3.7.37",
-    "craftcms/contact-form": "2.3.0",
-    "craftcms/contact-form-honeypot": "1.0.2",
-    "craftcms/redactor": "2.10.5",
+    "craftcms/cms": "3.7.45.2",
+    "craftcms/contact-form": "2.5.1",
+    "craftcms/contact-form-honeypot": "1.0.3",
+    "craftcms/redactor": "2.10.8",
     "ether/seo": "3.7.4",
     "nystudio107/craft-minify": "1.2.11",
     "verbb/navigation": "1.4.22",
@@ -23,6 +23,10 @@
     "optimize-autoloader": true,
     "platform": {
       "php": "7.2.5"
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
     }
   },
   "scripts": {
