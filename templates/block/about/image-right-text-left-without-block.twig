@@ -3,24 +3,24 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-sm-12 col-md-12 col-lg-6">
-                {% if image %}
-                <div class="about__img mb-30"><img src="{{ image.url }}" alt="{{ image.title }}"></div><!-- /.about-img -->
-                {% endif %}
-            </div><!-- /.col-lg-6 -->
-            <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="heading-layout2 mb-30">
                     <h2 class="heading__subtitle">{{ about.subtitle }}</h2>
                     <h3 class="heading__title">{{ about.header }}</h3>
                     {{ about.description }}
                     {% if about.usp %}
-                    {% set usps = about.usp|split("\n") %}
-                    <ul class="list-items list-unstyled mb-40">
-                        {% for usp in usps %}
-                            <li>{{ usp }}</li>
-                        {% endfor %}
-                    </ul>
+                        {% set usps = about.usp|split("\n") %}
+                        <ul class="list-items list-unstyled mb-40">
+                            {% for usp in usps %}
+                                <li>{{ usp }}</li>
+                            {% endfor %}
+                        </ul>
                     {% endif %}
                 </div>
+            </div><!-- /.col-lg-6 -->
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                {% if image %}
+                    <div class="about__img mb-30"><img src="{{ image.url }}" alt="{{ image.title }}"></div><!-- /.about-img -->
+                {% endif %}
             </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
     </div><!-- /.container -->

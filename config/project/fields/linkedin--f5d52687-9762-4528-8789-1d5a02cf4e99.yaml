@@ -1,0 +1,15 @@
+columnSuffix: gufnexdb
+contentColumnType: string(255)
+fieldGroup: f57375eb-70ec-48b9-be73-fd19ecf64112
+handle: linkedin
+instructions: ''
+name: Linkedin
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url
