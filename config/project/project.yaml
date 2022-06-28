@@ -1,4 +1,4 @@
-dateModified: 1656410495
+dateModified: 1656411460
 email:
   fromEmail: jan@inteiro.be
   fromName: 'N2 Buiten Leven'
@@ -38,7 +38,6 @@ meta:
     9403ae2f-7a0b-4674-8dde-53f6b27ff353: Slider # Slider
     20111be7-987a-4364-bf9a-90f35d955762: About # About
     39859fa6-1365-422e-a85f-6dc12cc05548: 'Afbeelding 2' # Afbeelding 2
-    172278cf-6f59-450f-8cf7-09fda3eba0f0: 'Sociale media' # Sociale media
     495739ba-ab45-4dd5-bb2a-7c6a82b657f4: 'N2 Buitenleven' # N2 Buitenleven
     1952691a-e332-4ff1-9c5f-d1943ce38caf: Heading # Heading
     39477821-209b-40f3-8421-e884d055f66c: Features # Features
@@ -52,6 +51,7 @@ meta:
     d27b6565-c579-447b-bf09-cad8b3e7457c: Contactinfo # Contactinfo
     dee29ced-14aa-48b7-8add-5b871c620f2d: Description # Description
     e304dd92-2441-4b42-bd28-7c7388d59106: Heading # Heading
+    f5d52687-9762-4528-8789-1d5a02cf4e99: Linkedin # Linkedin
 plugins:
   contact-form:
     edition: standard

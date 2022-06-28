@@ -33,8 +33,9 @@
                         </a><!-- /.contact__numbr -->
                         <p class="mb-30">{{ contactinfo.addresse |nl2br }}</p>
                         <ul class="social-icons list-unstyled">
-                            {% if socialmedia.facebook %}<li><a href="{{ socialmedia.facebook }}"><i class="fab fa-facebook-f"></i></a></li>{% endif %}
-                            {% if socialmedia.instagram %}<li><a href="{{ socialmedia.instagram }}"><i class="fab fa-instagram"></i></a></li>{% endif %}
+                            {% if contactinfo.facebook %}<li><a href="{{ contactinfo.facebook }}"><i class="fab fa-facebook-f"></i></a></li>{% endif %}
+                            {% if contactinfo.instagram %}<li><a href="{{ contactinfo.instagram }}"><i class="fab fa-instagram"></i></a></li>{% endif %}
+                            {% if contactinfo.linkedin %}<li><a href="{{ contactinfo.linkedin }}"><i class="fab fa-linkedin"></i></a></li>{% endif %}
                         </ul><!-- /.social-icons -->
                     </div><!-- /.footer-widget-content -->
                 </div><!-- /.col-xl-4 -->
