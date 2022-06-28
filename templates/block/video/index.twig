@@ -1,5 +1,5 @@
 {% if entry.video %}
-    {% for video in entry.video %}
+    {% for video in entry.video.all() %}
         {% set imageMain = video.imageMain.one() %}
         {% set imageSecondary = video.imageSecondary.one() %}
         {% set btnEntry = video.btn.one() %}

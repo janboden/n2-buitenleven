@@ -7,7 +7,7 @@ name: Features
 searchable: false
 settings:
   contentTable: '{{%matrixcontent_features}}'
-  maxBlocks: '3'
+  maxBlocks: '4'
   minBlocks: '1'
   propagationKeyFormat: null
   propagationMethod: all
