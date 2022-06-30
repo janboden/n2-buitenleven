@@ -49,6 +49,15 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+          -
+            fieldUid: d2b3b629-fed2-4c34-8a3e-0e5fd7f78da3 # index
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -153,6 +162,26 @@ fields:
     handle: header
     instructions: ''
     name: Header
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d2b3b629-fed2-4c34-8a3e-0e5fd7f78da3: # index
+    columnSuffix: merxtyjy
+    contentColumnType: text
+    fieldGroup: null
+    handle: index
+    instructions: ''
+    name: index
     searchable: false
     settings:
       byteLimit: null

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aed4457306c46a8755f430c5a258b322",
+    "content-hash": "c3a824792128527145958330e145009a",
     "packages": [
         {
             "name": "adigital/cookie-consent-banner",
@@ -442,11 +442,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.7.45.2",
+            "version": "3.7.46",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/b4fe5c883047927efc1e89e9d433eaa40a9c5681",
-                "reference": "b4fe5c883047927efc1e89e9d433eaa40a9c5681",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/3885d3419047d02dbb9bd75ec6a8cc5e019a92c7",
+                "reference": "3885d3419047d02dbb9bd75ec6a8cc5e019a92c7",
                 "shasum": ""
             },
             "require": {
@@ -529,7 +529,7 @@
                 "docs": "https://craftcms.com/docs/3.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2022-06-24T15:13:13+00:00"
+            "time": "2022-06-28T15:46:47+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -635,11 +635,11 @@
         },
         {
             "name": "craftcms/html-field",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/html-field/zipball/d78adb8babb66290250773de6f135d6cdfa3f5bf",
-                "reference": "d78adb8babb66290250773de6f135d6cdfa3f5bf",
+                "url": "https://api.github.com/repos/craftcms/html-field/zipball/c8d58d23fdc8e586eeba29d6805cb868683af6a0",
+                "reference": "c8d58d23fdc8e586eeba29d6805cb868683af6a0",
                 "shasum": ""
             },
             "require": {
@@ -668,7 +668,7 @@
                 "docs": "https://github.com/craftcms/html-field/blob/main/README.md",
                 "rss": "https://github.com/craftcms/html-field/commits/main.atom"
             },
-            "time": "2022-06-22T03:58:37+00:00"
+            "time": "2022-06-29T11:06:43+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -748,11 +748,11 @@
         },
         {
             "name": "craftcms/redactor",
-            "version": "2.10.8",
+            "version": "2.10.9",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/redactor/zipball/cc31c0a64a0a733337218d7ffd08b0424dbd8763",
-                "reference": "cc31c0a64a0a733337218d7ffd08b0424dbd8763",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/0045f7f5ecef56b8d36c215a491b5fc7a44b7440",
+                "reference": "0045f7f5ecef56b8d36c215a491b5fc7a44b7440",
                 "shasum": ""
             },
             "require": {
@@ -794,7 +794,7 @@
                 "docs": "https://github.com/craftcms/redactor/blob/v2/README.md",
                 "rss": "https://github.com/craftcms/redactor/commits/v2.atom"
             },
-            "time": "2022-05-04T19:01:46+00:00"
+            "time": "2022-06-29T11:37:47+00:00"
         },
         {
             "name": "craftcms/server-check",
@@ -2981,7 +2981,7 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v2.5.1",
+            "version": "v2.5.2",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
@@ -3676,11 +3676,11 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v2.5.1",
+            "version": "v2.5.2",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/24d9dc654b83e91aa59f9d167b131bc3b5bea24c",
-                "reference": "24d9dc654b83e91aa59f9d167b131bc3b5bea24c",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/4b426aac47d6427cc1a1d0f7e2ac724627f5966c",
+                "reference": "4b426aac47d6427cc1a1d0f7e2ac724627f5966c",
                 "shasum": ""
             },
             "require": {
@@ -3732,7 +3732,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2022-03-13T20:07:29+00:00"
+            "time": "2022-05-30T19:17:29+00:00"
         },
         {
             "name": "symfony/string",
@@ -5260,5 +5260,5 @@
     "platform-overrides": {
         "php": "7.2.5"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }

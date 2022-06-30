@@ -1,4 +1,4 @@
-dateModified: 1656416028
+dateModified: 1656578474
 email:
   fromEmail: jan@inteiro.be
   fromName: 'N2 Buiten Leven'
@@ -20,6 +20,7 @@ meta:
     9ae6a83f-50e9-4229-92ab-8345d7daf54a: Feature # Feature
     9b564739-6899-41bd-a1b6-8957971599cb: Image # Image
     9cad2396-e443-4c72-88ef-bb40523864f5: slide # slide
+    9db81460-3942-4362-b329-2444dd9ffc23: 'Ramen en deuren' # Ramen en deuren
     9de6491f-6e9a-406e-8040-285511749958: Afbeelding # Afbeelding
     9fa5e361-1bfd-4714-be76-0a9469e26258: Subtitle # Subtitle
     30cd21bc-6de2-4e3a-ad4c-37b12bc984ef: 'Hoofd navigatie' # Hoofd navigatie
@@ -49,6 +50,7 @@ meta:
     bb7afd91-77b7-4de6-a50a-bbfafd78ecd5: Zonwering # Zonwering
     bbd5ba34-7a22-478b-b5ad-ee41644e6970: 'Afbeelding 1' # Afbeelding 1
     bdded17f-fb36-4be6-815b-f8fafdfe1fd9: Header # Header
+    d2b3b629-fed2-4c34-8a3e-0e5fd7f78da3: index # index
     d9e3dc57-f8a5-427c-8e75-7a95f82a19d9: Heading # Heading
     d27b6565-c579-447b-bf09-cad8b3e7457c: Contactinfo # Contactinfo
     dee29ced-14aa-48b7-8add-5b871c620f2d: Description # Description

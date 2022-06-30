@@ -7,7 +7,7 @@ name: About
 searchable: false
 settings:
   contentTable: '{{%matrixcontent_about}}'
-  maxBlocks: '3'
+  maxBlocks: ''
   minBlocks: '1'
   propagationKeyFormat: null
   propagationMethod: all

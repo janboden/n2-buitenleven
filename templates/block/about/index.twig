@@ -1,5 +1,6 @@
 {% if entry.about %}
     {% for k, about in entry.about.all() %}
+        <div id="{{ about.index }}">
         {% set remainder = k % 3 %}
         {% if remainder == 0 %}
             {% include 'block/about/image-left-text-right-without-block' %}
@@ -8,5 +9,6 @@
         {% elseif remainder == 2 %}
             {% include 'block/about/image-right-text-left-without-block' %}
         {% endif %}
+        </div>
     {% endfor %}
 {% endif %}
