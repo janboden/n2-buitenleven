@@ -7,7 +7,7 @@
                     <div class="heading-layout2 mb-40">
                         <h2 class="heading__subtitle">{{ about.subtitle }}</h2>
                         <h3 class="heading__title">{{about.header}}</h3>
-                        {{ about.description }}
+                        <p class="heading__desc mb-30">{{ about.description }}</p>
                         {% if about.usp %}
                             {% set usps = about.usp|split("\n") %}
                             <ul class="list-items list-unstyled mb-40">
