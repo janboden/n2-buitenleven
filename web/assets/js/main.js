@@ -34,7 +34,7 @@ $(function () {
     /*==========  Pre Loading   ==========*/
     setTimeout(function () {
         $(".preloader").remove();
-    }, 2000);
+    }, 500);
 
     /*==========   Mobile Menu   ==========*/
     var $navToggler = $('.navbar-toggler');
@@ -166,6 +166,12 @@ $(function () {
             srcAction: 'iframe_src',
         }
     });
+    $('.popup-image').magnificPopup({
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        mainClass: 'mfp-img-mobile'
+    });
+
     $('.popup-gallery-item').magnificPopup({
         type: 'image',
         tLoading: 'Loading image #%curr%...',

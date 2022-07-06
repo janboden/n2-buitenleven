@@ -1,4 +1,3 @@
-{% set image = about.image.one() %}
 <section class="banner-layout3 py-0 bg-gray">
     <div class="container-fluid col-padding-0">
         <div class="row align-items-center">
@@ -20,9 +19,12 @@
                 </div><!-- /.banner-panel -->
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-12 col-md-12 col-lg-7">
-                {% if image %}
+            {% set image = about.image.one() %}
+            {% if image %}
+            <a href="{{ image.url }}" class="popup-image" rel="group-{{ about.index }}">
                 <img src="{{ image.url }}" alt="{{ image.title }}" class="w-100">
-                {% endif %}
+            </a>
+            {% endif %}
             </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
     </div><!-- /.container -->

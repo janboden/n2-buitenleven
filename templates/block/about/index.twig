@@ -1,13 +1,17 @@
 {% if entry.about %}
     {% for k, about in entry.about.all() %}
         <div id="{{ about.index }}">
-        {% set remainder = k % 3 %}
-        {% if remainder == 0 %}
-            {% include 'block/about/image-left-text-right-without-block' %}
-        {% elseif remainder == 1 %}
-            {% include 'block/about/text-left-image-right-with-block' %}
-        {% elseif remainder == 2 %}
-            {% include 'block/about/image-right-text-left-without-block' %}
+        {% if about.image.count() > 1 %}
+            {% include 'block/about/two-images-with-text' %}
+        {% else %}
+            {% set remainder = k % 3 %}
+            {% if remainder == 0 %}
+                {% include 'block/about/image-left-text-right-without-block' %}
+            {% elseif remainder == 1 %}
+                {% include 'block/about/text-left-image-right-with-block' %}
+            {% elseif remainder == 2 %}
+                {% include 'block/about/image-right-text-left-without-block' %}
+            {% endif %}
         {% endif %}
         </div>
     {% endfor %}
