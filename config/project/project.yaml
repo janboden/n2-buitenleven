@@ -1,4 +1,4 @@
-dateModified: 1656946377
+dateModified: 1657102153
 email:
   fromEmail: jan@inteiro.be
   fromName: 'N2 Buiten Leven'
@@ -72,7 +72,7 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
     settings:
-      honeypotParam: buitenpot\
+      honeypotParam: buitenpot_
   cookie-consent-banner:
     edition: standard
     enabled: true
