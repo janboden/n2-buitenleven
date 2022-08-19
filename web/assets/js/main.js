@@ -34,7 +34,7 @@ $(function () {
     /*==========  Pre Loading   ==========*/
     setTimeout(function () {
         $(".preloader").remove();
-    }, 500);
+    }, 50);
 
     /*==========   Mobile Menu   ==========*/
     var $navToggler = $('.navbar-toggler');
