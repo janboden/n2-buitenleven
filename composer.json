@@ -1,10 +1,10 @@
 {
     "require": {
         "adigital/cookie-consent-banner": "1.2.9",
-        "craftcms/cms": "3.7.46",
+        "craftcms/cms": "3.7.47.1",
         "craftcms/contact-form": "2.5.1",
         "craftcms/contact-form-honeypot": "1.0.3",
-        "craftcms/redactor": "2.10.9",
+        "craftcms/redactor": "2.10.10",
         "ether/seo": "3.7.4",
         "nystudio107/craft-minify": "1.2.11",
         "verbb/navigation": "1.4.22",

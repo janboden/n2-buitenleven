@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3a824792128527145958330e145009a",
+    "content-hash": "91f9023cab18aa2c74f96a3d4d08a50a",
     "packages": [
         {
             "name": "adigital/cookie-consent-banner",
@@ -151,11 +151,11 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.2.12",
+            "version": "2.2.15",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/ba61e768b410736efe61df01b61f1ec44f51474f",
-                "reference": "ba61e768b410736efe61df01b61f1ec44f51474f",
+                "url": "https://api.github.com/repos/composer/composer/zipball/509dcbd4f8d459e0ef2ef223a231b8c31bceed78",
+                "reference": "509dcbd4f8d459e0ef2ef223a231b8c31bceed78",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2022-04-13T14:42:25+00:00"
+            "time": "2022-07-01T10:01:26+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -442,15 +442,15 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.7.46",
+            "version": "3.7.47.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/3885d3419047d02dbb9bd75ec6a8cc5e019a92c7",
-                "reference": "3885d3419047d02dbb9bd75ec6a8cc5e019a92c7",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/34b91f424c99a89cfba719217417871b28f002a6",
+                "reference": "34b91f424c99a89cfba719217417871b28f002a6",
                 "shasum": ""
             },
             "require": {
-                "composer/composer": "2.2.12",
+                "composer/composer": "2.2.15",
                 "craftcms/oauth2-craftid": "~1.0.0",
                 "craftcms/plugin-installer": "~1.5.6",
                 "craftcms/server-check": "~1.2.0",
@@ -529,7 +529,7 @@
                 "docs": "https://craftcms.com/docs/3.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2022-06-28T15:46:47+00:00"
+            "time": "2022-07-06T17:02:09+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -748,11 +748,11 @@
         },
         {
             "name": "craftcms/redactor",
-            "version": "2.10.9",
+            "version": "2.10.10",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/redactor/zipball/0045f7f5ecef56b8d36c215a491b5fc7a44b7440",
-                "reference": "0045f7f5ecef56b8d36c215a491b5fc7a44b7440",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/34ad579a49d05bd70c8ed2d8113730bd34ed5095",
+                "reference": "34ad579a49d05bd70c8ed2d8113730bd34ed5095",
                 "shasum": ""
             },
             "require": {
@@ -794,7 +794,7 @@
                 "docs": "https://github.com/craftcms/redactor/blob/v2/README.md",
                 "rss": "https://github.com/craftcms/redactor/commits/v2.atom"
             },
-            "time": "2022-06-29T11:37:47+00:00"
+            "time": "2022-06-30T22:11:59+00:00"
         },
         {
             "name": "craftcms/server-check",
@@ -4184,11 +4184,11 @@
         },
         {
             "name": "voku/arrayy",
-            "version": "7.9.1",
+            "version": "7.9.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/Arrayy/zipball/11509d59745af6b2c23a781938491f9981241c1d",
-                "reference": "11509d59745af6b2c23a781938491f9981241c1d",
+                "url": "https://api.github.com/repos/voku/Arrayy/zipball/41318bd1483a10f133c8214479b3580a3e936a86",
+                "reference": "41318bd1483a10f133c8214479b3580a3e936a86",
                 "shasum": ""
             },
             "require": {
@@ -4227,7 +4227,7 @@
                 "utility",
                 "utils"
             ],
-            "time": "2022-03-08T19:16:33+00:00"
+            "time": "2022-07-06T00:50:30+00:00"
         },
         {
             "name": "voku/email-check",
