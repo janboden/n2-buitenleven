@@ -1,6 +1,5 @@
 {
     "require": {
-        "adigital/cookie-consent-banner": "1.2.9",
         "craftcms/cms": "3.7.51",
         "craftcms/contact-form": "2.5.1",
         "craftcms/contact-form-honeypot": "1.0.3",

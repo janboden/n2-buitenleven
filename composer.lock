@@ -4,57 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc2a0a561ebd0562552cf15fbcbcd7ca",
+    "content-hash": "8546fb6690b350dd246eb265dcf6bd28",
     "packages": [
-        {
-            "name": "adigital/cookie-consent-banner",
-            "version": "1.2.9",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/a-digital/cookie-consent-banner/zipball/2626aa9ebeba7b7ba31e56870d8b6c5a9e4733af",
-                "reference": "2626aa9ebeba7b7ba31e56870d8b6c5a9e4733af",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^3.1.0"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Cookie Consent Banner",
-                "handle": "cookie-consent-banner",
-                "hasCpSettings": true,
-                "hasCpSection": false,
-                "changelogUrl": "https://github.com/a-digital/cookie-consent-banner/blob/master/CHANGELOG.md",
-                "class": "adigital\\cookieconsentbanner\\CookieConsentBanner"
-            },
-            "autoload": {
-                "psr-4": {
-                    "adigital\\cookieconsentbanner\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mark @ A Digital",
-                    "homepage": "https://adigital.agency"
-                }
-            ],
-            "description": "Add a configurable cookie consent banner to the website.",
-            "keywords": [
-                "cms",
-                "cookie consent banner",
-                "craft",
-                "craft-plugin",
-                "craftcms"
-            ],
-            "support": {
-                "docs": "https://github.com/a-digital/cookie-consent-banner/blob/master/README.md",
-                "issues": "https://github.com/a-digital/cookie-consent-banner/issues"
-            },
-            "time": "2021-11-24T15:02:02+00:00"
-        },
         {
             "name": "cebe/markdown",
             "version": "1.2.1",
@@ -5260,5 +5211,5 @@
     "platform-overrides": {
         "php": "7.2.5"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
