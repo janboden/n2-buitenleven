@@ -1,0 +1,18 @@
+<section class="pricing pb-70 bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="heading text-center mb-50">
+                    <h2 class="heading__subtitle">Zit je met vragen of wil je een prijsofferte?</h2>
+                    <h3 class="heading__title">We maken graag tijd voor jouw project.</h3>
+                    <p>Maak gerust een afspraak of contacteer ons voor vrijblijvend advies of een offerte opmaat</p>
+                        {% for entry in craft.entries.section('contact') %}
+                            <a class="btn btn__secondary" href="{{ entry.uri }}">
+                                <i class="icon-arrow-right"></i><span>Contacteer ons</span>
+                            </a>
+                        {% endfor %}
+                </div><!-- /heading -->
+            </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section>

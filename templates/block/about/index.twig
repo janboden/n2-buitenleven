@@ -1,3 +1,4 @@
+<div class="pb-60">
 {% if entry.about %}
     {% for k, about in entry.about.all() %}
         <div id="{{ about.index }}">
@@ -16,3 +17,4 @@
         </div>
     {% endfor %}
 {% endif %}
+</div>

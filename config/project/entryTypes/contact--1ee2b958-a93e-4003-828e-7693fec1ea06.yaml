@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 017df12e-c23a-4778-a575-be6bc8e30d28
+            fieldUid: 017df12e-c23a-4778-a575-be6bc8e30d28 # Slider2
             instructions: null
             label: null
             required: false
