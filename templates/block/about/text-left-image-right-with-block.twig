@@ -4,8 +4,10 @@
             <div class="col-sm-12 col-md-12 col-lg-5">
                 <div class="banner-panel">
                     <div class="heading-layout2 mb-40">
-                        <h2 class="heading__subtitle">{{ about.subtitle }}</h2>
-                        <h3 class="heading__title">{{about.header}}</h3>
+                        {% if about.subtitle %}
+                        <h3 class="heading__subtitle">{{ about.subtitle }}</h3>
+                        {% endif %}
+                        <h2 class="heading__title">{{about.header}}</h2>
                         <p class="heading__desc mb-30">{{ about.description }}</p>
                         {% if about.usp %}
                             {% set usps = about.usp|split("\n") %}
