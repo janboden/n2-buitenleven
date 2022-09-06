@@ -6599,8 +6599,7 @@ input#secretBuitenPot { display: none; }
 
 .about-layout2 .about-img-container {
     position: relative;
-    padding-right: 30px;
-    padding-bottom: 40px;
+    padding: 0 50px;
 }
 
 .about-layout2 .about-img-container .about-img:first-of-type {
