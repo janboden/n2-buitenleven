@@ -4,6 +4,7 @@
 <!-- ========================
    page title
 =========================== -->
+{#
 <section class="page-title page-title-layout2 bg-overlay bg-parallax">
     <div class="bg-img"><img src="{{ pagetitleImage.url }}" alt="background"></div>
     <div class="container">
@@ -15,4 +16,25 @@
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.page-title -->
+#}
+<section class="slider slider-layout3">
+    <div class="slick-carousel carousel-arrows-light m-slides-0"
+         data-slick='{"slidesToShow": 1, "arrows": true, "dots": false, "speed": 700,"fade": true,"cssEase": "linear"}'>
+        <div class="slide-item bg-overlay">
+            <div class="bg-img"><img src="{{ pagetitleImage.url }}" alt="slide img {{ pagetitleImage.title }}"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                        <div class="slide-item__content">
+                            <h2 class="slide-item__title">{{ pagetitle.header }}</h2>
+                            <div class="d-flex align-items-center mt-20">
+                                <p class="slide-item__desc mb-0">{{ pagetitle.subheading }}</p>
+                            </div>
+                        </div><!-- /.slide-content -->
+                    </div><!-- /.col-xl-7 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.slide-item -->
+    </div><!-- /.carousel -->
+</section><!-- /.slider -->
 {% endif %}
