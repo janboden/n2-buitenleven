@@ -25,13 +25,13 @@
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="contact-panel__info bg-gray mb-30">
                         <div class="contact-panel__block">
-                            <h5 class="contact-panel__block__title">{{ 'Our Location' | t('general') }}</h5>
+                            <h5 class="contact-panel__block__title">Ons adres</h5>
                             <ul class="contact-panel__block__list list-unstyled">
-                                <li>{{ contactinfo.addresse }}</li>
+                                <li>{{ contactinfo.addresse | raw }}</li>
                             </ul>
                         </div><!-- /.contact-panel__info__block -->
                         <div class="contact-panel__block">
-                            <h5 class="contact-panel__block__title">{{ 'Quick contact' | t('general') }}</h5>
+                            <h5 class="contact-panel__block__title">Onze contactgegevens</h5>
                             <ul class="contact-panel__block__list list-unstyled">
                                 <li><a href="mailto:{{ contactinfo.email }}"></a>Email: {{ contactinfo.email }}</li>
                                 <li><a href="tel:{{ contactinfo.phone }}"></a>Tel: {{ contactinfo.phone }}</li>
