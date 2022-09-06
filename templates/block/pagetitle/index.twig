@@ -23,16 +23,19 @@
         <div class="slide-item bg-overlay">
             <div class="bg-img"><img src="{{ pagetitleImage.url }}" alt="slide img {{ pagetitleImage.title }}"></div>
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
-                        <div class="slide-item__content">
-                            <h2 class="slide-item__title">{{ pagetitle.header }}</h2>
-                            <div class="d-flex align-items-center mt-20">
-                                <p class="slide-item__desc mb-0">{{ pagetitle.subheading }}</p>
-                            </div>
-                        </div><!-- /.slide-content -->
-                    </div><!-- /.col-xl-7 -->
-                </div><!-- /.row -->
+                <div class="d-none d-lg-block">
+                    <div class="row features-light">
+                        <div class="col-sm-6 col-md-3 col-lg-3"></div><!-- /.col-lg-3 -->
+                        <div class="col-sm-6 col-md-3 col-lg-3"></div><!-- /.col-lg-3 -->
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="feature-item feature-box">
+                                <div class="feature-item__content">
+                                    <h1 class="feature-item__title">{{ pagetitle.header }}</h1>
+                                </div><!-- /.feature-content -->
+                            </div><!-- /.feature-item -->
+                        </div><!-- /.col-lg-6 -->
+                    </div><!-- /.row -->
+                </div>
             </div><!-- /.container -->
         </div><!-- /.slide-item -->
     </div><!-- /.carousel -->
