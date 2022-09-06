@@ -29,7 +29,6 @@
                     <div class="text-container heading-layout2">
                         <h3 class="heading__title">{{video.heading}}</h3>
                         <p class="heading__desc mt-30 mb-30">{{ video.subtitle }}</p>
-                        <p class="heading__desc mb-30">{{ video.description }}</p>
                         {% if video.usp %}
                         {% set usps = video.usp|split("\n") %}
                         <ul class="list-items list-unstyled mb-40">
@@ -40,6 +39,9 @@
                         {% endif %}
                         {% if btnEntry %}
                         <a href="{{ btnEntry.url }}" class="btn btn__secondary btn__icon"><i class="icon-arrow-right"></i><span>{{ btnEntry.title }}</span></a>
+                        {% endif %}
+                        {% if video.description %}
+                        <p class="heading__desc mb-30">{{ video.description }}</p>
                         {% endif %}
                     </div><!-- /heading -->
                 </div><!-- /.col-xl-7 -->
