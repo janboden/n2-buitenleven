@@ -6614,19 +6614,6 @@ input#secretBuitenPot { display: none; }
     left: 100px;
     bottom: 100px;
     z-index: 2;
-}
-
-.about-layout2 .about-img-container:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 155px;
-    width: 175px;
-    height: 175px;
-    z-index: 1;
-    border-radius: 3px;
-    background-color: #c9d30e;
-}
 
 .about-layout2 .video-box {
     position: absolute;
