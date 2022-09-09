@@ -2,8 +2,10 @@
 {% if entry.about %}
     {% for k, about in entry.about.all() %}
         <div id="{{ about.index }}">
-        {% if about.image.count() > 1 %}
+        {% if about.image.count() == 2 %}
             {% include 'block/about/two-images-with-text' %}
+        {% elseif about.image.count() > 2 %}
+                {% include 'block/about/more-images-with-text' %}
         {% else %}
             {% set remainder = k % 3 %}
             {% if remainder == 0 %}

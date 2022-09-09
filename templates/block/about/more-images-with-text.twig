@@ -1,0 +1,43 @@
+<section class="portfolio-grid-layout2">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <div class="heading-layout2 mb-70">
+                    <h2 class="heading__title">{{ about.header }}</h2>
+                    {% if about.subtitle %}
+                        <h3 class="heading__subtitle">{{ about.subtitle }}</h3>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <div class="heading-layout2 mb-30">
+                    <p class="heading__desc mb-30">{{ about.description }}</p>
+                    {% if about.usp %}
+                        {% set usps = about.usp|split("\n") %}
+                        <ul class="list-items list-unstyled mb-40">
+                            {% for usp in usps %}
+                                <li>{{ usp }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for k, image in about.image.all() %}
+            <!-- portfolio item -->
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <div class="portfolio-item__img">
+                        <a href="{{ image.url }}" class="popup-gallery-item">
+                            <img src="{{ image.url }}" alt="{{ image.title }}">
+                        </a>
+                    </div><!-- /.portfolio-img -->
+                </div><!-- /.portfolio-item -->
+            </div><!-- /.col-lg-4 -->
+            {% endfor %}
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section>
