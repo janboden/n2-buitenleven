@@ -2,7 +2,7 @@
     <div class="container feature-banners-wrapper">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-                <div class="heading-layout2 mb-70">
+                <div class="heading-layout2 mb-30">
                     <h2 class="heading__title">{{ blocks['terrasoverkappingen'].header }}</h2>
                     {% if blocks['terrasoverkappingen'].subtitle %}
                         <h3 class="heading__subtitle">{{ blocks['terrasoverkappingen'].subtitle }}</h3>
@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                 <div class="heading-layout2 mb-30">
-                    <p class="heading__desc mb-30">{{ blocks['terrasoverkappingen'].description }}</p>
+                    <p class="heading__desc mb-30">{{ blocks['terrasoverkappingen'].description | nl2br}}</p>
                     {% if blocks['terrasoverkappingen'].usp %}
                         {% set usps = blocks['terrasoverkappingen'].usp|split("\n") %}
                         <ul class="list-items list-unstyled mb-40">
@@ -40,7 +40,7 @@
                             <img src="{{ image.url }}" alt="{{ image.title }}" class="w-100">
                         </a>
                         {% if blocks['pergolas'].description %}
-                        <p class="heading__desc mt-30">{{ blocks['pergolas'].description }}</p>
+                        <p class="heading__desc mt-30">{{ blocks['pergolas'].description  | nl2br}}</p>
                         {% endif %}
                         {% if blocks['pergolas'].usp %}
                             {% set usps = blocks['pergolas'].usp|split("\n") %}
@@ -71,7 +71,7 @@
                             <img src="{{ image.url }}" alt="{{ image.title }}" class="w-100">
                         </a>
                         {% if blocks['lamellendak'].description %}
-                        <p class="heading__desc mt-30">{{ blocks['lamellendak'].description }}</p>
+                        <p class="heading__desc mt-30">{{ blocks['lamellendak'].description  | nl2br }}</p>
                         {% endif %}
                         {% if blocks['lamellendak'].usp %}
                             {% set usps = blocks['lamellendak'].usp|split("\n") %}
