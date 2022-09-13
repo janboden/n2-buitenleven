@@ -1,11 +1,19 @@
 <div class="pb-60">
 {% if entry.about %}
+    {% set blocks = [] %}
     {% for k, about in entry.about.all() %}
         <div id="{{ about.index }}">
         {% if about.image.count() == 2 %}
             {% include 'block/about/two-images-with-text' %}
         {% elseif about.image.count() > 2 %}
             {% include 'block/about/more-images-with-text' %}
+        {% elseif about.index =='lamellendak' %}
+            {% set blocks = blocks|merge({'lamellendak': about})  %}
+            {% include 'block/about/subcategory' with blocks %}
+        {% elseif about.index =='terrasoverkappingen'%}
+            {% set blocks = blocks|merge({'terrasoverkappingen': about})  %}
+        {% elseif about.index =='pergolas' %}
+             {% set blocks = blocks|merge({'pergolas': about})  %}
         {% else %}
             {% set remainder = k % 3 %}
             {% if remainder == 0 %}
