@@ -1,0 +1,60 @@
+<section class="about-layout3 pb-0">
+    <div class="container feature-banners-wrapper">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <div class="heading-layout2 mb-70">
+                    <h2 class="heading__title">{{ blocks['terrasoverkappingen'].header }}</h2>
+                    {% if blocks['terrasoverkappingen'].subtitle %}
+                        <h3 class="heading__subtitle">{{ blocks['terrasoverkappingen'].subtitle }}</h3>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <div class="heading-layout2 mb-30">
+                    <p class="heading__desc mb-30">{{ blocks['terrasoverkappingen'].description }}</p>
+                    {% if blocks['terrasoverkappingen'].usp %}
+                        {% set usps = blocks['terrasoverkappingen'].usp|split("\n") %}
+                        <ul class="list-items list-unstyled mb-40">
+                            {% for usp in usps %}
+                                <li>{{ usp }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% if blocks['pergolas'] %}
+            {% set image = blocks['pergolas'].image.one() %}
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="feature-banner">
+                    <div class="feature-banner__img">
+                        <a href="{{ image.url }}" class="popup-gallery-item">
+                            <img src="{{ image.url }}" alt="{{ image.title }}" class="w-100">
+                        </a>
+                        <h3 class="heading__title">{{ blocks['pergolas'].header }}</h3>
+                    </div><!-- /.feature-banner__img -->
+
+                </div><!-- /.feature-banner -->
+            </div>
+            {% endif %}
+
+            {% if blocks['terrasoverkappingen'] %}
+            {% set image = blocks['terrasoverkappingen'].image.one() %}
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="feature-banner">
+                    <div class="feature-banner__img">
+                        <a href="{{ image.url }}" class="popup-gallery-item">
+                            <img src="{{ image.url }}" alt="{{ image.title }}" class="w-100">
+                        </a>
+                        <h3 class="heading__title">{{ blocks['terrasoverkappingen'].header }}</h3>
+                    </div><!-- /.feature-banner__img -->
+
+                </div><!-- /.feature-banner -->
+            </div>
+            {% endif %}
+        </div><!-- /.row -->
+    </div>
+</section>

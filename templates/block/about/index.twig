@@ -5,7 +5,12 @@
         {% if about.image.count() == 2 %}
             {% include 'block/about/two-images-with-text' %}
         {% elseif about.image.count() > 2 %}
-                {% include 'block/about/more-images-with-text' %}
+            {% include 'block/about/more-images-with-text' %}
+        {% elseif about.index =='lamellendak' %}
+            {% set blocks = {about.index: about}  %}
+            {% include 'block/about/subcategory' with  %}
+        {% elseif about.index =='terrasoverkappingen' or about.index =='pergolas' %}
+            {% set blocks = {about.index: about}  %}
         {% else %}
             {% set remainder = k % 3 %}
             {% if remainder == 0 %}
