@@ -32,12 +32,14 @@
                             <i class="icon-phone"></i><span>{{ contactinfo.phone }}</span>
                         </a><!-- /.contact__numbr -->
                         <p class="mb-30">
-                            <h5>maandag tot donderdag:</h5>
+                            <strong>maandag tot donderdag:</strong>
                             <br>8u30 - 12u00 en 12u30 - 17u30
-                            <h5>vrijdag:</h5>
+                            <br>
+                            <strong>vrijdag:</strong>
                             <br>8u30 - 12u00 en 12u30 - 17u00
+                            <br>
                         </p>
-                        
+
                         <p class="mb-20">{{ contactinfo.addresse |nl2br }}</p>
                         <ul class="social-icons list-unstyled">
                             {% if contactinfo.facebook %}<li><a href="{{ contactinfo.facebook }}"><i class="fab fa-facebook-f"></i></a></li>{% endif %}
