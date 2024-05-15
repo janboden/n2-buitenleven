@@ -8,15 +8,18 @@
 
 {% set message = message ?? null %}
 
+{#
 <form method="post" action="" accept-charset="UTF-8" class="contact-panel__form mb-30" novalidate="novalidate">
     {{ csrfInput() }}
     {{ actionInput('contact-form/send') }}
     {{ redirectInput('contact?thanks') }}
+    #}
     <div class="row">
         <div class="col-sm-12">
             <h4 class="contact-panel__title">{{ entry.title }}</h4>
             <p class="contact-panel__desc mb-40">{{ entry.pageContent }}</p>
         </div>
+{#
         <div class="col-sm-12">
             {% if craft.app.session.hasFlash('notice') %}
                 <div class="alert alert-success" role="alert">{{ craft.app.session.getFlash('notice') }}</div>
@@ -82,5 +85,6 @@
             </button>
             <div class="contact-result"></div>
         </div><!-- /.col-lg-12 -->
+        #}
     </div><!-- /.row -->
-</form>
+{#</form>#}
